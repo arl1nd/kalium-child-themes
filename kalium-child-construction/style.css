@@ -1,0 +1,556 @@
+/*
+Theme Name: Kalium - Construction Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for CONSTRUCTION Demo - START
+=========================================================== */
+
+/* Paragraphs Line Height */
+p {
+    line-height: 1.7;
+}
+
+/* Partners: Scale logos by 50% */
+.logos-holder.logos-scaled .c-logo img {
+    max-width: 50%;
+}
+
+/* Menu: Margin Left */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul>li+li,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li+li {
+    margin-left: 15px;
+}
+
+/* Menu: Hide Underline */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-dark div.menu>ul>li>a:after,
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-dark ul.menu>li>a:after {
+    display: none;
+}
+
+/* Menu: Item Spacing */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-dark div.menu>ul>li>a span,
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-dark ul.menu>li>a span {
+    padding: 6px 10px;
+}
+
+/* Menu: Hover Style */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-dark div.menu>ul>li>a:hover span,
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-dark ul.menu>li>a:hover span {
+    background: #f7c016;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Special menu button hover color */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul>li.special-menu-button>a:hover span, .main-header.menu-type-standard-menu .standard-menu-container ul.menu>li.special-menu-button>a:hover span {
+    background: #00b19e;
+    color: #fff;
+}
+
+/* Menu: Removing the menu Hover Style from Submenus  */
+.sub-menu a span {
+    background: transparent !important;
+}
+
+/* Menu: Active menu style */
+li.current-menu-item a span {
+    background: #f7c016;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Sub-Menu: Borders Radius */
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu ul {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Footer: Footer Bottom Bakcground Color */
+.footer-bottom {
+    background: #444;
+}
+
+/* Footer: Footer Bottom Color */
+.site-footer .footer-bottom-content .copyrights p {
+    color: #FFF !important;
+}
+
+/* Footer Bottom Link Colour */
+.site-footer .footer-bottom a {
+    color: #CCC;
+}
+
+.site-footer .footer-bottom a:hover {
+    color: #CCC;
+}
+
+/* Footer: Footer Background Color*/
+footer.site-footer {
+    background-color: #555 !important;
+}
+
+/* Footer: Remove Horizontal line separator */
+.site-footer hr {
+    display: none;
+}
+
+/* Footer: Social Networks Background */
+.site-footer .social-networks.rounded li a {
+    background: #555;
+}
+
+/* Footer: Social Networks Color */
+.site-footer .social-networks.rounded li a i {
+    color: #EEE !important;
+}
+
+/* Footer: Bottom Footer Spacing */
+.footer-bottom {
+    background: transparent;
+    padding-bottom: 25px;
+}
+
+/* Footer: Bottom Footer Layout */
+.footer-bottom .container {
+    background: #444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 0 20px;
+}
+
+/* Footer: Bottom Footer Spacing */
+.site-footer.footer-bottom-horizontal .footer-bottom-content {
+    padding: 15px 0px;
+}
+
+/* Footer: Bottom Social Networks Size and Spacing */
+.site-footer .social-networks.rounded li a {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+/* Footer: Line Height */
+.site-footer .footer-widgets .widget .textwidget,
+.site-footer .footer-widgets .widget p {
+    line-height: 1.5;
+}
+
+/* Footer: List */
+.site-footer .footer-widgets .widget li {
+    padding: 4px 0;
+}
+
+/* Footer: Widgets Positioning */
+.widget_nav_menu {
+    margin-top: 20px;
+}
+
+/* Footer: First Widget Width */
+.widget-area.widgets--columned-layout.widgets--columns-5>.widget:first-child {
+    width: 40%;
+}
+
+/* Footer: Remove Margin Bottom */
+.site-footer .footer-widgets {
+    margin-bottom: 0px;
+}
+
+/* Footer: Font color */
+.site-footer.site-footer-inverted .footer-widgets .widget a,
+.site-footer.site-footer-inverted .footer-widgets .widget div,
+.site-footer.site-footer-inverted .footer-widgets .widget p {
+    color: #CCC;
+}
+
+/* Footer: Font color of the headings */
+.site-footer.site-footer-inverted .footer-widgets .widget h1,
+.site-footer.site-footer-inverted .footer-widgets .widget h2,
+.site-footer.site-footer-inverted .footer-widgets .widget h3 {
+    color: #FFF !important;
+}
+
+/* Color of the search widget */
+.widget.widget_product_search .search-bar input[name="s"], .widget.widget_search .search-bar input[name="s"] {
+    background: #f7f7f7;
+}
+
+/* Services Retina Image placement*/
+.services-image img {
+    max-width: 75px;
+}
+
+/* Revolution Slider: Removed margin on the bottom of the slider */
+.wpb_revslider_element {
+    margin-bottom: 0px;
+}
+
+/* Revolution Slider button */
+.rev-btn {
+    line-height: 1.3 !important;
+}
+
+/* Accordion: Active Heading background color */
+.accordion-construction-demo-style .vc_active .vc_tta-panel-heading {
+    background-color: #f7c016;
+}
+
+/* Accordion: Active Heading font color */
+.accordion-construction-demo-style .vc_active .vc_tta-panel-heading h4 a {
+    color: #fff !important;
+}
+
+/* Tour: Active tab background and font color */
+.tour-construction-demo-style .vc_tta-tab.vc_active>a {
+    background-color: #f7c016 !important;
+    color: #fff !important;
+}
+
+/*Tour Tab modifications on mobile*/
+@media screen and (max-width: 768px) {
+    /* Tour: Active tab background and font color (Mobile) */
+    .tour-construction-demo-style .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+        background-color: #f7c016 !important;
+        color: #fff !important;
+    }
+
+    /* Tour: Active tab remove link underline on mobile */
+    .tour-construction-demo-style .vc_tta-panel-title>a:after {
+        background-color: transparent !important;
+    }
+
+    /* Margin bottom on the tabs */
+    .vc_tta-panel-heading {
+        margin-bottom: 10px !important;
+    }
+
+    .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-body {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+/* Contact Form: Input Colors */
+.contact-form .form-group {
+    background: #eee;
+    padding: 5px 15px;
+}
+
+/* Contact Form: Privacy Policy background */
+.contact-form-privacy-policy {
+    background: transparent !important;
+    padding: 0px !important;
+}
+
+/* Contact Form: Remove Borders*/
+.labeled-input-row label,
+.labeled-input-row input,
+.labeled-textarea-row label {
+    border-bottom: none;
+}
+
+/* Contact Form: Textarea Remove Border */
+.labeled-textarea-row textarea {
+    background: none;
+}
+
+/* Contact Form: Padding */
+.wpb_wrapper .lab-contact-form {
+    padding-top: 30px;
+}
+
+/* Contact Form: Autofill background color for webkit browsers */
+html input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #eee inset;
+    -moz-box-shadow: 0 0 0 1000px #eee inset;
+    box-shadow: 0 0 0 1000px #eee inset;
+}
+
+/* Contact: Map Margin Top */
+.contact-map-column {
+    margin-top: -100px;
+}
+
+/* Contact Form Submit button */
+.contact-form .button {
+    float: left;
+}
+
+.dash {
+    background: #ddd;
+}
+
+/* Blog Post: Author Info area */
+.single-post .post .author-info {
+    padding: 30px;
+    border-left: 2px solid #f7bf16;
+    border-top: 2px solid #f7bf16;
+}
+
+/* Blog: Widget Borders */
+.widget-area--skin-background-fill>.widget {
+    border-left: 2px solid #f7bf16;
+    border-top: 2px solid #f7bf16;
+    background: transparent;
+}
+
+/* Blog: Search Form Background Color */
+.widget.widget_product_search .search-bar input[name="s"],
+.widget.widget_search .search-bar input[name="s"] {
+    background: #FFF;
+}
+
+/* Single Portfolio: Container Top Margin */
+.single-portfolio .page-container {
+    margin-top: 0px;
+}
+
+/* Projects: Transparent Background */
+.single-portfolio-holder.alt-one .services {
+    background: transparent;
+}
+
+/* Projects: Services Spacing and Border */
+.portfolio-template-default .single-portfolio-holder .details .services .checklist-entry {
+    margin-top: 25px;
+    border-bottom: 1px solid #EEE;
+}
+
+/* Projects: Services Spacing */
+.portfolio-template-default .single-portfolio-holder .details .services .checklist-entry:last-child {
+    border-bottom: none;
+}
+
+/* Comments: Textarea */
+p.labeled-textarea-row.comment-form-comment,
+.single-post .comment-form>p {
+    background: #EEE;
+    padding: 5px 15px;
+}
+
+.comment-form-comment {
+    margin-top: 20px;
+}
+
+/* Comments: Textarea */
+.single-post .comment-form>p.logged-in-as {
+    background: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Comments: Submit Comment */
+.single-post .comment-form>p.form-submit {
+    padding: 0px;
+    background: transparent;
+    margin-top: 0px;
+}
+
+/* Comments: Spacing Between Forms */
+.single-post .comment-form>p.labeled-input-row {
+    border-right: 18px solid #FFF;
+}
+
+/* Comments: Spacing Between Forms */
+.single-post .comment-form>p.comment-form-url {
+    border-right: none;
+}
+
+/* Forms: Label Color */
+.labeled-input-row label, .labeled-textarea-row label {
+    color: #333 !important;
+}
+
+.post-navigation a i,
+.post-navigation a strong {
+    color: #333;
+}
+
+/* Single Post: Comment form */
+.single-post .comment-form {
+    margin: 0px;
+}
+
+/* Forms: Textarea */
+.labeled-textarea-row textarea {
+    line-height: 1.5;
+    color: #222;
+}
+
+/* Single Post Author details */
+.single-post .post .author-info--details .author-name em {
+    display: inline-block;
+}
+
+.banner-text h4 {
+    text-transform: inherit;
+}
+
+/* Projects: Filter Centering and Spacing */
+.product-filter {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Homepage (Blog Posts element) — Post Title */
+.wpb_wrapper .lab-blog-posts .blog-post-entry {
+    border: none;
+}
+
+/* Homepage (Blog Posts element) — Post Title */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Homepage (Blog Posts element) — Hide Excerpt */
+/*
+.wpb_wrapper .blog-news-hide-excerpt .blog-post-entry .blog-post-excerpt {
+	display: none;
+}
+*/
+
+/* Homepage (Blog Posts element) — Remove Margin Bottom */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-title {
+    margin-bottom: 0px;
+}
+
+/* Homepage (Blog Posts element) — Border Bottom */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title a {
+    border-bottom: 2px solid #EEE;
+}
+
+/* Homepage (Blog Posts element) — Remove Margin Bottom */
+.wpb_wrapper .lab-blog-posts .blog-post-column {
+    margin-bottom: 0px;
+}
+
+/* Homepage (Titles) — Center Align */
+.center-title {
+    text-align: center;
+}
+
+/* Homepage (Information Row) */
+.information-row {
+    padding: 35px 0;
+}
+
+/* Homepage (Titles) — Remove Margin Top */
+.wpb_wrapper .section-title>h2 {
+    margin-top: 0px;
+}
+
+/* Homepage (Titles) — Remove Margin Bottom */
+.wpb_wrapper .section-title>p {
+    margin-bottom: 0px;
+}
+
+/* Single Portfolio: Portfolio navigation */
+.no-bottom-margin {
+    margin-bottom: 40px !important;
+}
+
+/* Projects: Center Filter */
+.portfolio-title-holder>.pt-column {
+    margin: 0 auto;
+}
+
+
+/* Services: Text Padding */
+.service-column {
+    padding: 100px 50px;
+}
+
+/* Services: Remove Margin Bottom */
+.service-column .wpb_content_element {
+    margin-bottom: 0px !important;
+}
+
+/* XS: Mobile devices */
+@media screen and (max-width: 480px){
+
+    .logos-holder.logos-scaled .client-logos-col {
+        width: 50% !important;
+    }
+
+    .footer-bottom {
+        padding-bottom: 0px;
+    }
+
+    .see-more-button a {
+        width: 100%;
+    }
+
+    .information-row {
+        padding: 0px;
+    }
+
+    .contact-map-column {
+        margin-top: auto;
+    }
+
+    .title-banner .wpb_content_element {
+        margin-bottom: 0px !important;
+    }
+
+    .title-banner .vc_column-inner {
+        padding-top: 0px !important;
+    }
+
+    .section-title {
+        margin-bottom: 0px;
+    }
+
+    .lab-contact-form .button {
+        width: 100%;
+    }
+
+    .contact-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title {
+        line-height: 1.5 !important;
+    }
+
+    /* Homepage: Service Padding */
+    .service-column {
+        padding: 30px 0px;
+    }
+}
+
+/* LG: Desktop devices */
+@media screen and (min-width: 1200px) {
+
+    /* Homepage: Service Padding */
+    .service-column {
+        padding: 100px 50px;
+    }
+
+    .service-column .wpb_content_element {
+        margin-bottom: 0px !important;
+    }
+}
+/* ===========================================================
+Custom modification only for CONSTRUCTION Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+    color: red;
+}

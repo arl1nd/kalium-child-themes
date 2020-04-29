@@ -1,0 +1,890 @@
+/*
+Theme Name: Kalium - Fitness Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for FITNESS Demo - START
+=========================================================== */
+/* Link underline height */
+.main-footer a:after,
+.wrapper a:after {
+    height: 2px;
+    bottom: -3px;
+}
+
+/* Forms: Remove Autofill */
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #f0f0f0 inset !important;
+    -webkit-box-shadow: 0 0 0px 1000px #f0f0f0 inset !important;
+    -moz-box-shadow: 0 0 0px 1000px #f0f0f0 inset !important;
+    -o-box-shadow: 0 0 0px 1000px #f0f0f0 inset !important;
+}
+
+/* Menu Underline Color */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-light div.menu>ul>li>a:after,
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-light ul.menu>li>a:after {
+    background-color: #dd1f26 !important;
+}
+
+/* Menu Underline Show */
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu ul li a:after,
+.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul ul li a:after {
+    position: relative;
+}
+
+/* Page Title: Margin Top */
+.section-title {
+    margin-top: 30px;
+}
+
+/* Page Title: Margin Top */
+.wpb_wrapper .section-title>h2 {
+    margin-top: 30px;
+}
+
+/* Page Title: Remove Margin Top for Partners */
+.partners .wpb_wrapper .section-title>h2 {
+    margin-top: 0px !important;
+}
+
+/* Header: Border Bottom */
+.main-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+/* Header: Hide Border Bottom on Homepage */
+body.home .main-header {
+    border-bottom: none !important;
+}
+
+/* Header: Hide Border Bottom When Sticky Menu is Active */
+header.main-header.is-sticky.sticky-initialized.sticky-active.sticky-fully-hidden {
+    border-bottom: 1px transparent;
+}
+
+/* Contact - Contact Form */
+.contact-form .form-group,
+.comment-respond .labeled-textarea-row,
+.comment-respond .labeled-input-row {
+    padding: 16px 22px;
+    background: #F0F0F0;
+    margin-bottom: 30px;
+}
+
+.contact-form .contact-form-privacy-policy {
+    padding: 0px;
+    background: transparent;
+}
+
+.contact-form .form-group label, .comment-form label {
+    margin-right: 10px;
+}
+
+.single-post .comment-form {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.logged-in-as {
+    padding-left: 0px !important;
+}
+
+.single-post .comment-form>p {
+    padding: 16px 22px;
+}
+
+.single-post .comment-form>p.form-submit {
+    padding: 0px;
+}
+
+.comment-respond .labeled-input-row {
+    border-right: 1px solid #FFF;
+}
+
+/* Contact - Placeholder */
+.contact-form .form-group label,
+.comment-respond .labeled-textarea-row label,
+.comment-respond .labeled-input-row label {
+    border-bottom: none;
+    color: #999;
+}
+
+/* Contact - Fields Styling */
+.contact-form input,
+.contact-form textarea {
+    background-image: none;
+    border-bottom: none;
+    padding: 0px;
+}
+
+/* Contact - Send Button */
+.contact-form .send {
+    margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Contact - Send Button Full Width in Mobile */
+    .contact-form .send {
+        width: 100%;
+    }
+
+    /* Contact - Margin Bottom in Mobile */
+    .contact-form .form-group {
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Contact: Address Padding  */
+.our-location {
+    padding: 65px 0;
+}
+
+/* Contact: Address Padding on Mobile */
+@media screen and (max-width: 768px) {
+    .our-location {
+        padding: 35px 0;
+    }
+}
+
+/* Contact: Remove Margin from Title */
+.our-location .wpb_wrapper .section-title>h2 {
+    margin-top: 0px;
+}
+
+/* Contact: Social Networks Remove Margin */
+.contact-form .social-networks.rounded {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+/* Contact: Social Networks Background Color */
+.social-networks.rounded li a {
+    background: #EEE;
+}
+
+/* Contact: Social Networks Margin */
+.social-networks.rounded li {
+    margin-right: 10px;
+}
+
+/* Shop: Center Item */
+.woocommerce .products .product .item-info .item-info-row,
+.woocommerce .product .item-info .item-info-row>.price-column,
+.woocommerce .product .item-info .item-info-row>.title-column {
+    display:  block !important;
+    text-align: center;
+}
+
+/* Shop - Single Product Image Size */
+.woocommerce.single-product .single-product .images a img {
+    width: auto !important;
+    position: relative;
+}
+
+/* Shop - Single Product Background Image */
+.woocommerce .image-placeholder {
+    background: transparent;
+}
+
+/* Shop - Image Centering Settings */
+.product-images .image-placeholder img {
+    width: auto !important;
+}
+
+/* Shop - Price Styling */
+.woocommerce .product.catalog-layout-default .item-info .price {
+    float: none;
+}
+
+/* Shop - Price Size and Color */
+.woocommerce .product .item-info .price ins,
+.woocommerce .product .item-info .price > .amount {
+    color: #6b829e;
+}
+
+/* Shop - Price Size and Color on Related Products */
+.single-product .woocommerce .related .product .item-info .price ins,
+.single-product .woocommerce .related .product .item-info .price > .amount {
+    color: #6b829e;
+
+}
+
+/* Shop - Sale Button Styling */
+.woocommerce .product .onsale {
+    background: #dd1f26;
+    color: #fff;
+    border-radius: 0px;
+    transform: skew(-10deg);
+    height: auto !important;
+    padding: 0px;
+    top: -12px;
+    margin-right: -8px;
+}
+
+/* Shop - Out of Stock Style */
+.woocommerce .product .onsale.oos {
+    padding: 10px 0;
+}
+
+/* Shop - Hide Out of Stock on Hover */
+a.woocommerce-LoopProduct-link:after {
+    display: none;
+}
+
+/* Shop - Featured Button Styling */
+.woocommerce .product .onsale.featured {
+    width: 80px;
+}
+
+/* Shop - Sale Button Styling */
+.woocommerce .product .product-images {
+    background:  #EEE;
+}
+
+/* Shop - Item Title Margin */
+.woocommerce .product .item-info h3 {
+    margin-bottom: 5px;
+}
+
+/* Shop - Item Title Underline on Hover */
+.woocommerce .product .item-info h3 a {
+    border-bottom: 2px solid transparent;
+}
+
+/* Shop - Item Title Underline on Hover */
+.woocommerce .product .item-info h3 a:hover {
+    border-bottom: 2px solid #dd1f26 ;
+}
+
+/* Shop - Catalog Image Width */
+.woocommerce .product .product-images  {
+    background: #EEE;
+}
+
+.woocommerce .product .product-images a {
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+/* Shop - Price Filter */
+.widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle+.ui-slider-handle {
+    margin-left: -9px;
+}
+
+/* Shop - Price Filter Slider */
+.widget.widget_price_filter .price_slider_wrapper .price_slider .ui-slider-handle {
+    margin-left: -5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 0px;
+    margin-top: -6px;
+    transform: skew(-10deg);
+}
+
+/* Shop - Price Filter Button */
+.widget.widget_price_filter .price_slider_wrapper .price_slider_amount .button {
+    border-radius: 0px !important;
+}
+
+/* Shop - Item Info List */
+.summary ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    color: #333;
+}
+
+/* Shop - Item Info List Styling */
+.summary ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+
+/* Shop - Table Button */
+.woocommerce .item-info .group_table .button,
+.woocommerce .woocommerce .item-info form.cart .button {
+    border-radius: 0px;
+}
+
+/* Shop - Item Tabs */
+.woocommerce .woocommerce-tabs .tabs li a,
+.woocommerce .woocommerce-tabs .tabs li.active a {
+    color: #1c395e;
+}
+
+/* Shop - Item Tabs (Active) */
+.woocommerce .woocommerce-tabs .tabs li.active:after {
+    height: 2px;
+    background: #dd1f26;
+    content: "  ";
+    display: block;
+    margin: 0 20px;
+    left: 0px;
+    margin-bottom: -2px;
+}
+
+/* Shop - Item Tabs Styling in Mobile and Tablet  View */
+@media screen and (max-width: 768px) {
+    .woocommerce .woocommerce-tabs .tabs li.active:after {
+        display: none;
+    }
+
+    .woocommerce .woocommerce-tabs .tabs {
+        margin-bottom: 0px;
+    }
+
+    .woocommerce .woocommerce-tabs .tabs li {
+        border-bottom: none;
+    }
+
+    .woocommerce .woocommerce-tabs .tabs li.active a {
+        color: #dd1f26;
+    }
+}
+
+/* Shop - Single Item Image Size */
+.woocommerce.single-product .single-product .images a img {
+    width: 50% !important;
+    margin: 0 auto;
+}
+
+/* Shop - Single Item Image */
+.single-product .images {
+    background: #EEE;
+}
+
+/* Shop - Single Iteme Image Resize to 50% */
+.kalium-woocommerce-product-gallery .main-product-images .woocommerce-product-gallery__image a {
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+.woocommerce .single-product .kalium-woocommerce-product-gallery .main-product-images.carousel .woocommerce-product-gallery__image {
+    background: #EEE;
+}
+
+/* Shop - Single Item Price Styling */
+.single-product .woocommerce .product .item-info .price ins,
+.single-product .woocommerce .product .item-info .price > .amount {
+    border-bottom: 0px;
+    color: #dd1f26;
+}
+
+/* Shop - Single Item Hide Product Meta */
+.product_meta {
+    display: none;
+}
+
+/* Shop - Single Item Hide Tabs Heading */
+.woocommerce .woocommerce-tabs .entry-content h2 {
+    display: none;
+}
+
+/* Shop - Single Item Summary Color */
+.woocommerce.single-product .single-product .summary .product_title {
+    color: #1b3453;
+}
+
+/* Shop - Single Item Table */
+.woocommerce .shop_table thead th {
+    padding-bottom: 12px;
+}
+
+/* Shop - Button */
+.woocommerce .button {
+    border-radius: 0px;
+    color: #FFF;
+}
+
+.woocommerce .button:hover {
+    color: #FFF;
+}
+
+/* Shop - Login and Register */
+.woocommerce .bordered-block .login .absolute input,
+.woocommerce .bordered-block .register .absolute input,
+.woocommerce .bordered-block.with-form-labels .absolute input {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* Shop - Login and Register Color */
+.woocommerce .bordered-block h2 {
+    color: #1b3453;
+}
+
+/* Shop - Single Item Remove Image Background from Carousel */
+.shop-carousel .woocommerce {
+    background: transparent;
+}
+
+/* Shop - Single Item Remove Image Background */
+.shop-carousel .woocommerce .product .product-images {
+    background: transparent;
+    padding: 0px;
+}
+
+/* Footer */
+.main-footer .footer-bottom-content {
+    padding: 20px 0;
+}
+
+/* Footer Bottom Link Colour */
+.site-footer .footer-bottom a {
+    color: #fff;
+}
+
+.site-footer .footer-bottom a:hover {
+    color: #dd1f25;
+}
+
+
+/* Footer - Widget Color */
+.main-footer .widget ul li {
+    color: #FFF;
+}
+
+/* Footer Border Color */
+.main-footer.main-footer-inverted hr {
+    border-color: rgba(255,255,255,.1);
+}
+
+/* Footer Background Color */
+footer.main-footer {
+    background-color: #1b3453 !important;
+}
+
+/* Footer Spacing */
+.main-footer .footer-widgets {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.main-footer .footer-widgets .widget li {
+    border-bottom: none;
+}
+
+/* Remove Bottom Border */
+.main-footer .footer-widgets .widget .working-hours li {
+    border-bottom: 1px dotted rgba(255,255,255,0.1);
+    padding: 8px 0;
+}
+
+/* Working Hours - Open */
+.main-footer .footer-widgets .widget .working-hours li span {
+    float: right;
+    background: #DD1F26;
+    color: #FFF;
+    padding: 2px 6px;
+    clear: both;
+}
+
+/* Working Hours - Closed */
+.main-footer .footer-widgets .widget .working-hours li span.closed {
+    background: #4b6688;
+}
+
+/* Instagram Feed */
+.widget.null-instagram-feed .instagram-pics {
+    max-width: none;
+    margin: 0px;
+}
+
+/* Instagram Feed - Image Width */
+.widget.null-instagram-feed .instagram-pics li {
+    width: 16.6666%;
+    padding: 0px;
+}
+
+/* Instagram Feed - Image Spacing */
+.widget.null-instagram-feed .instagram-pics li a {
+    padding: 1px;
+}
+
+/* Comments */
+.comment-form input, .comment-form textarea {
+    border-bottom: 0px;
+}
+
+/* Benefits Icon Size */
+.benefits .wpb_single_image img {
+    width: 64px;
+}
+
+/* Join Us Button */
+.join-us-button a {
+    background-color: #dd1f26 !important;
+    color: #FFF !important;
+}
+
+/* Join Us Button Hover */
+.join-us-button a:hover {
+    color: #FFF !important;
+}
+
+/* Join Us Button Hide Border */
+.join-us-button a:after{
+    display: none;
+}
+
+/* Join Us Banner - Remove Bottom Margin */
+.vc_cta3-container {
+    margin-bottom: 0px;
+}
+
+/* Join Us Button - Styling in Mobile and Tablet  View */
+@media screen and (max-width: 768px) {
+    .join-us-button {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .join-us-button a {
+        width: 100%;
+    }
+}
+
+/* Coming Soon */
+.coming-soon-container {
+    text-align: left;
+    padding-top: 250px;
+}
+
+/* Coming Soon: Remove Margins */
+.coming-soon-container .col-sm-offset-2 {
+    margin-left: 0px;
+}
+
+
+/* Coming Soon: Small Letters Margin */
+.coming-soon-container .message-container p {
+    margin-top: 0px;
+}
+
+/* Team Members */
+.team-holder .member .hover-state {
+    top: auto !important;
+    padding: 40px 0px 0px 0px !important;
+    display: block;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+
+/* Team Members: Text */
+.team-holder .member .hover-state .member-details {
+    bottom: 0px;
+    position: relative;
+    padding: 20px 25px;
+}
+
+/* Team Members: Gradient */
+.member .hover-state {
+    background-color: transparent !important;
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.8) 100%);
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.8) 100%);
+    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+}
+
+/* Blog - Post Margin*/
+.blog-holder .box-holder .post-info {
+    margin-top: 30px;
+}
+
+/* Blog - Date */
+.blog-posts .post-item .post-details .post-meta.date {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    background: #dd1f26;
+    color: #FFF;
+    width: auto;
+    text-align: center;
+    line-height: 14px;
+    padding: 13px 15px;
+    z-index: 100;
+    border-radius: 60px;
+    transform: skew(-10deg);
+}
+
+/* Blog - Hide Date and Category Icon */
+.blog-posts .post-item .post-details .post-meta i {
+    display: none;
+}
+
+/* Blog - Date Font Settings */
+.blog-posts .post-item .post-details .post-meta.date span {
+    display: block;
+}
+
+/* Blog - Sidebar Recent Comment */
+.widget.widget_recent_comments li a {
+    display: inline !important;
+}
+
+/* Blog - Sidebar List Borders */
+.widget li {
+    padding: 7px 0;
+    border-bottom: 1px solid #EEE;
+    border-top: none !important;
+}
+
+/* Blog - Blog Posts Title Size */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title a {
+    line-height: 20px;
+}
+
+/* Blog - Remove Underline from Titles */
+.blog-posts .post-item .post-details .post-title a:after {
+    display: none;
+}
+
+/* Clients - Margin Bottom */
+.logos-holder.no-image-borders .c-logo {
+    margin-bottom: 35px !important;
+}
+
+/* Clients - Logo Size */
+.partners .c-logo img {
+    max-width: 50%;
+}
+
+/* Classes */
+.portfolio-holder .item-box .photo a {
+    background: #000;
+}
+
+/* Classes - Image Opacity */
+.portfolio-item .image-placeholder {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+    transition: all 0.2s;
+}
+
+/* Classes - Image Opacity on Hover */
+.portfolio-holder .item-box .photo a:hover .image-placeholder {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/* Classes and Blog Category */
+.blog-posts .post-item .post-details .post-meta.category a {
+    color: #6b829e;
+}
+
+/* Classes - Custom Class Padding */
+.class-custom-padding {
+    padding: 0 30px;
+}
+
+/* No Padding on Mobile */
+@media screen and (max-width: 768px) {
+    .no-padding-mobile {
+        padding: 0px !important;
+    }
+}
+
+/* Classes - Filter Color When Active */
+.product-filter ul li.active a {
+    color: #1b3453;
+}
+
+/* Classes - Title and Category */
+.portfolio-holder .item-box .info {
+    padding: 10px 0 !important;
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+}
+
+
+/* Classes - Title Color */
+.portfolio-holder .item-box .info h3 a {
+    color: #FFF;
+}
+
+/* Classes - Category */
+.portfolio-holder .item-box .info p a {
+    color: #FFF;
+    background: #dd1f26;
+    padding: 1px 3px;
+    top: -5px;
+    position: absolute;
+}
+
+/* Classes - Color on Hover */
+.portfolio-holder .item-box .info p a:hover {
+    color: #FFF;
+}
+
+/* Classes - Remove Underline */
+.portfolio-holder .item-box .info p a:after {
+    display: none;
+}
+
+/* Classes - Center Title in Homepage */
+.homepage-classes .pt-column {
+    margin: auto;
+    text-align: center;
+}
+
+/* Classes - Hide Overlay */
+.portfolio-holder .item-box .photo .on-hover {
+    display: none;
+}
+
+/* Classes - Timetable */
+.timetable ul {
+    padding: 0px !important;
+}
+
+/* Classes - Timetable Styling */
+.timetable ul li {
+    color: #1b3453 !important;
+    background: #EEE;
+    list-style: none;
+    padding: 12px !important;
+    margin-bottom: 2px;
+}
+
+/* Classes - Timetable Time */
+.timetable ul li strong {
+    float: right;
+    color: #999;
+}
+
+/* Classes - Full Width Image */
+.full-width-image img {
+    width: 100%;
+}
+
+/* Pricing Table - Text Alignment */
+.pricing-table .plan {
+    text-align: left;
+    position: relative;
+}
+
+/* Pricing Table - Header */
+.pricing-table .plan .plan-head {
+    text-align: left;
+    padding: 35px 35px 20px 35px;
+    border-bottom: 0px;
+}
+
+/* Pricing Table - Header Text */
+.pricing-table .plan .plan-head p {
+    display: inline-block;
+    margin-bottom:0px;
+}
+
+/* Pricing Table - Plan Name */
+.pricing-table .plan .plan-name {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+/* Pricing Table - Lists */
+.pricing-table .plan li {
+    padding: 10px 35px;
+    color: #FFF;
+    border-bottom: 1px solid #334d6e;
+}
+
+/* Pricing Table - Action Button */
+.pricing-table .plan .plan-action {
+    padding-bottom: 15px;
+}
+
+/* Pricing Table - Button */
+.pricing-table .plan .plan-action .btn {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Pricing Table - Selected */
+.pricing-table.selected {
+    margin-top: -25px;
+}
+
+/* Pricing Table - Mobile Fixes */
+@media screen and (max-width: 768px) {
+    .pricing-table.selected {
+        margin-top: 0px;
+    }
+
+    .pricing-table .plan {
+        margin-bottom: 15px;
+    }
+
+    .lab-vc-container .pricing-tables .vc_column_container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* Pricing Table - Selected Plan Header Padding */
+.pricing-table.selected .plan .plan-head {
+    padding: 40px 30px 30px 30px;
+}
+
+/* Pricing Table - Selected Plan Name Margin */
+.pricing-table.selected .plan .plan-name {
+    top: 30px;
+}
+
+/* Pricing Table - Selected Button Size */
+.pricing-table.selected .plan .plan-action .btn {
+    padding: 12px;
+}
+
+/* Customers Choice Ribbon */
+span.customers-choice {
+    position: absolute;
+    top: -10px;
+    background: #dd1f26;
+    left: 30px;
+    padding: 3px 6px;
+}
+
+/* Mobile Menu Font Styling */
+.mobile-menu-wrapper .mobile-menu-container div.menu>ul>li>a, .mobile-menu-wrapper .mobile-menu-container ul.menu>li>a {
+    padding-bottom: 5px;
+}
+
+/* Footer Instagram Widget ALT */
+.widget.null-instagram-feed .instagram-pics img {
+    text-indent: -9999px;
+}
+
+/* ===========================================================
+Custom modification only for FITNESS Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+    color: red !important;
+}

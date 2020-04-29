@@ -1,0 +1,722 @@
+/*
+Theme Name: Kalium - Architecture Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for ARCHITECTURE Demo - START
+=========================================================== */
+
+/* General: Remove button box shadow when active */
+.button:active {
+    box-shadow: none;
+}
+
+/* General: Go to Top button */
+.go-to-top {
+    background-color: transparent;
+}
+
+/* General: Go to top color and animation */
+.go-to-top i {
+    color: #000000;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.go-to-top i:hover {
+    transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+}
+
+/* General: Go to top icon */
+.go-to-top i:before {
+    content: "➝";
+    font-size: 30px;
+}
+
+/* General: Go to top */
+.go-to-top.visible {
+    opacity: 1;
+    -webkit-transform: rotate(-90deg) scale(1);
+    transform: rotate(-90deg) scale(1);
+}
+
+/* General: Go to top hover */
+.go-to-top.visible:hover {
+    background-color: transparent;
+}
+
+/* Homepage: News remove post border */
+.wpb_wrapper .lab-blog-posts .blog-post-entry {
+    border: none;
+}
+
+/* Homepage: News add post spacing */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container {
+    padding: 30px 20px;
+}
+
+/* Homepage: News add post spacing on left image layout */
+.wpb_wrapper .lab-blog-posts.posts-layout-left .blog-post-entry .blog-post-content-container {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+/* Homepage: News title bottom margin and line height */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Homepage: Welcome Spacing */
+.homepage-welcome {
+    padding: 50px 0 35px 0;
+}
+
+/* Homepage: News Spacing */
+.homepage-news {
+    padding: 50px 0;
+}
+
+/* Homepage: Services Spacing */
+.homepage-service {
+    padding: 50px 0;
+}
+
+/* Homepage: Auto-Type element remove title margin */
+.auto-type-element h1 {
+    margin-top: 0px;
+}
+
+/* Homepage: Auto-Type element disable paragraphs */
+.auto-type-element>p {
+    display: none;
+}
+
+/* Homepage: Portfolio items remove title margin */
+.wpb_wrapper .lab-portfolio-items .portfolio-title-holder {
+    margin-bottom: 0px;
+}
+
+/* Portfolio Project Title Color */
+.portfolio-holder .item-box .info h3 a {
+    color: #000;
+}
+
+/* Menu: Hamburger Menu Color */
+.menu-bar.menu-skin-light .ham:after,
+.menu-bar.menu-skin-light .ham:before{
+    background-color: #000;
+}
+
+/* Menu: Hamburger Menu Width */
+.menu-bar .ham:after,
+.menu-bar .ham:before{
+    width: 30px;
+    height: 1px;
+    -webkit-transition: all ease .15s;
+    transition: all ease .15s;
+}
+
+/* Menu: Hamburger menu top line */
+.menu-bar .ham:after {
+    top: -4px;
+}
+
+/* Menu: Hamburger menu bottom line */
+.menu-bar .ham:before {
+    top: 4px;
+}
+
+/* Menu: Hamburger menu top line on hover */
+.menu-bar:hover .ham:before {
+    top: 6px;
+}
+
+/* Menu: Hamburger menu bottom line on hover */
+.menu-bar:hover .ham:after {
+    top: -6px;
+}
+
+/* Menu: Hamburger menu remove middle line */
+.menu-bar .ham {
+    height: 0px;
+}
+
+/* Menu: Hamburger menu bottom line on exit */
+.menu-bar.exit .ham:after {
+    top: 8px;
+}
+
+/* Menu: Hamburger menu top line on exit */
+.menu-bar.exit .ham:before {
+    top: -8px;
+}
+
+/* Menu: Hamburger menu top line on exit */
+.main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .right-part+.left-part,
+.main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .right-part,
+.main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .left-part {
+    width: 100%;
+}
+
+/* Menu: Full screen menu type remove top border of the footer  */
+.main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light .full-menu-footer .container {
+    border-top: none;
+}
+
+/* Menu: Full screen menu type footer align on left  */
+.main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .right-part {
+    float: none;
+    text-align: left;
+}
+
+/* Menu: Full screen menu remove underline on hover */
+.main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light nav div.menu>ul>li>a:after,
+.main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light nav ul.menu>li>a:after {
+    display: none;
+}
+
+/* Menu: Full screen menu item color on hover and on current menu item */
+.main-header.menu-type-full-bg-menu .full-screen-menu nav ul li a:hover,
+.main-header.menu-type-full-bg-menu .full-screen-menu nav ul li.current-menu-item a,
+.main-header.menu-type-full-bg-menu .full-screen-menu nav ul li.current_page_item a {
+    color: #BBB;
+}
+
+/* Menu: Full menu social networks bottom spacing */
+.social-networks {
+    margin-bottom: 20px;
+}
+
+/* Menu: Full menu social networks cirlce size */
+.main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .social-networks li a {
+    width: 30px;
+    height: 30px;
+}
+
+/* Menu: Full menu social networks icon size */
+.main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .social-networks li a i {
+    font-size: 16px;
+}
+
+/* Mobile Menu: Submenu indicator */
+.mobile-menu-wrapper .mobile-menu-container div.menu>ul li.menu-item-has-children>a:after, .mobile-menu-wrapper .mobile-menu-container ul.menu li.menu-item-has-children>a:after {
+    font-size: 14px;
+}
+
+/* Mobile Menu: White overlay */
+.main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light.translucent-background,
+.mobile-menu-wrapper.mobile-menu-fullscreen+.mobile-menu-overlay {
+    background-color: rgba(255,255,255,.97) !important;
+}
+
+/* Mobile Menu: Link color */
+.mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container div.menu>ul>li>a,
+.mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container ul.menu>li>a {
+    color: #333 !important;
+}
+
+/* Mobile Menu: Link color */
+.mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container div.menu>ul>li ul>li>a,
+.mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container ul.menu>li ul>li>a {
+    color: #898989 !important;
+}
+
+/* Mobile Menu: Search input text color */
+.mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container .search-form input {
+    color: #222;
+}
+
+/* Mobile Menu: Search input text color on focus */
+.mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container .search-form input:focus+label {
+    color: #222;
+}
+
+/* Projects: Item category on hover color */
+.portfolio-holder .thumb .hover-state .info p a:hover {
+    color: #898989;
+}
+
+/* Projects:  Show more button */
+.show-more .reveal-button {
+    border: none;
+    margin: 0px;
+    min-width: 0;
+}
+
+/* Projects:  Show more button color */
+.show-more .reveal-button a {
+    color: #000;
+    padding: 0px;
+}
+
+/* Projects:  Show more button align left */
+.show-more {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+/* Projects:  Show more button */
+.lab-portfolio-items .show-more {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+}
+
+/* Projects:  Next-Prev Navigation Arrows */
+.portfolio-navigation .flaticon-arrow413:before {
+    content: "➝";
+}
+
+/* Projects:  Next-Prev Navigation Arrows */
+.portfolio-big-navigation .flaticon-arrow427:before {
+    content: "➝";
+}
+
+/* Projects:  Next-Prev Navigation Arrows transform */
+.single-portfolio-holder .portfolio-big-navigation i {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/* Projects:  Next-Prev Navigation Arrows transform */
+.single-portfolio-holder .portfolio-big-navigation .next i {
+    -webkit-transform: none;
+    transform: none;
+}
+
+/* Projects:  Next-Prev Navigation Arrows rotate previous arrow */
+.post-navigation--next .post-navigation--arrow,
+.slick-prev {
+    padding-left: 20px;
+    padding-right: 0px;
+    -webkit-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1);
+}
+
+/* Carousel Portflio Arrows: Modification*/
+.single-portfolio-holder.portfolio-type-3 i {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.single-portfolio-holder.portfolio-type-3 .gallery-slider .slick-prev {
+    left: 200px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.single-portfolio-holder.portfolio-type-3 .gallery-slider .slick-next {
+    right: 200px;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* Carousel Portflio Arrows: Left Arrow */
+.single-portfolio-holder.portfolio-type-3 .slick-prev i:before {
+    content: "➝";
+}
+
+/* Carousel Portflio Arrows: Right Arrow */
+.single-portfolio-holder.portfolio-type-3 .slick-next i:before {
+    content: "➝";
+}
+
+/* Projects: Title Spacing */
+.projects-page.lab-portfolio-items .portfolio-title-holder {
+    padding: 25px 0px 35px 0px;
+    margin-bottom: 0px;
+}
+
+/* Single Project: Checklist top margin */
+.single-portfolio-holder .details .services .checklist-entry {
+    margin-top: 0;
+}
+
+/* Single Project: Launch project link color */
+.project-link-1 a {
+    color: #000;
+}
+
+/* Single Project: Launch project link color on hover */
+.single-portfolio-holder .details .link a:hover {
+    color: #000;
+}
+
+/* Single Project: Launch project button icon */
+.single-portfolio-holder .details .link .project-multiple-links:after {
+    content: "➝";
+}
+
+/* Single Project: Social networks size */
+.single-portfolio-holder .social-links-rounded .social-share-icon {
+    width: 42px;
+    height: 42px;
+}
+
+/* Studio: Services Spacing */
+.services-row {
+    padding: 50px 0;
+}
+
+/* Studio: Awards and Press Spacing */
+.studio-awards,
+.studio-press {
+    padding: 50px 0;
+}
+
+/* Studio: Team member Row Spacing */
+.team-member {
+    margin-bottom: 35px;
+}
+
+/* Studio: Team members Row Spacing */
+.members {
+    padding-top: 50px;
+}
+
+/* News: Page title display on two halfs */
+.page-heading--title-section {
+    display: flex;
+    flex-flow: row;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+/* News: Page title half page width */
+.blog .page-heading--title {
+    width: 50%;
+}
+
+/* News: Page description half page width */
+.blog .page-heading--description {
+    width: 50%;
+}
+
+/* Single Post: Comments remove top border */
+.single-post .post-comments {
+    margin-top: -1px;
+}
+
+/* News: Post image width */
+.blog-posts .post-item.columned .post-thumbnail {
+    min-width: 500px;
+    max-width: 500px;
+}
+
+/* News: Remove top margin on title */
+.blog .page-heading {
+    margin-top: 0;
+}
+
+/* News: Post image right margin */
+.blog-posts .post-item.columned .post-thumbnail {
+    margin-right: 70px;
+}
+
+/* News: Image hover effect overlay */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image a .hover-display.no-opacity,
+.blog-posts .post-item .post-thumbnail .post-hover.post-hover--no-opacity {
+    background-color: rgba(255,255,255,0.75);
+}
+
+/* Single Post: Navigate through posts link color */
+.post-navigation a i, .post-navigation a strong {
+    color: #000;
+}
+
+/* Single Post: Prev Navigation Arrows */
+.post-navigation--arrow .flaticon-arrow427:before {
+    content: "➝";
+}
+
+/* Single Post: Next Navigation Arrows */
+.post-navigation--arrow .flaticon-arrow413:before {
+    content: "➝";
+}
+/* Single Post: Navigate through posts */
+.single-post .post .post-navigation {
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+/* Single Post: Comment button align right */
+.single-post .comment-respond .comment-form>p.form-submit {
+    text-align: right;
+}
+
+/* Single Post: Comment form top padding */
+.post-comment-form {
+    padding-top: 20px;
+}
+
+/* Single Post: Comment button align left */
+.single-post .comment-form>p.form-submit {
+    text-align: left;
+}
+
+/* Contact: Rows used in contact */
+.contact-row {
+    padding-top: 50px;
+}
+
+/* Contact: Input Form Border Color */
+.labeled-input-row input {
+    border-bottom-color: #CCC;
+}
+
+/* Contact: Input Form Border Color */
+.labeled-textarea-row textarea {
+    background-image: linear-gradient(#CCC 1px, transparent 1px);
+}
+
+/* Contact: Privacy Policy checkbox color */
+.contact-form-privacy-policy .alternate-checkbox:before, .alternate-radio:before {
+    border-color: #ccc;
+}
+
+/* Contact: Input bottom border */
+.labeled-input-row label, .labeled-textarea-row label {
+    border-bottom: 1px solid #000;
+}
+
+/* Contact: Button text color and transparent background */
+.contact-form .button,
+.form-submit .button {
+    padding: 0px;
+    color: #000;
+    background: transparent;
+}
+
+/* Contact: Button text color and transparent background on hover */
+.contact-form .button:hover,
+.form-submit .button:hover {
+    color: #fabc28;
+}
+
+/* Footer: Transparent Background */
+footer.main-footer {
+    background-color: transparent !important;
+}
+
+/* Clients element: Background */
+.logos-holder .c-logo {
+    background-color: #fff;
+}
+
+/* Clients element: No image borders margin bottom */
+.logos-holder.no-image-borders .c-logo {
+    margin-bottom: 30px;
+}
+
+/* XS: Mobile devices */
+@media screen and (max-width: 480px){
+
+    /* Homepage: News add image spacing on right - left image layout */
+    .wpb_wrapper .lab-blog-posts.posts-layout-left .blog-post-entry .blog-post-image {
+        padding-right: 0px;
+    }
+
+    /* Homepage: News add post spacing on left image layout */
+    .wpb_wrapper .lab-blog-posts.posts-layout-left .blog-post-entry .blog-post-content-container {
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    /* Homepage: Welcome Spacing */
+    .homepage-welcome {
+        padding: 35px 0;
+    }
+
+    /* Homepage: News Spacing */
+    .homepage-news {
+        padding: 35px 0;
+    }
+
+    /* Homepage: Services Spacing */
+    .homepage-service {
+        padding: 35px 0;
+    }
+
+    /* Projects: Page title spacing */
+    .projects-page.lab-portfolio-items .portfolio-title-holder {
+        padding: 25px 0px 0px 0px;
+        margin-bottom: 0px;
+    }
+
+    /* News: Post image width */
+    .blog-posts .post-item.columned .post-thumbnail {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    /* News: Page title display on two halfs */
+    .page-heading--title-section {
+        flex-flow: column;
+    }
+
+    /* News: Page title half page width */
+    .blog .page-heading--title {
+        width: 100%;
+    }
+
+    /* News: Page description half page width */
+    .blog .page-heading--description {
+        width: 100%;
+    }
+
+    /* Single Post: Navigation visible on mobile */
+    .post-navigation--label em {
+        top: 0;
+        opacity: 1;
+    }
+
+    /* Single Post: Comments caret */
+    .single-post .post-comments:before {
+        right: 30px;
+        border-width: 25px 25px 0 0;
+    }
+
+    /* Single Post: Navigate through posts link color */
+    .post-navigation a {
+        max-width: 30%;
+    }
+
+    /* Single Post: Comment respond top spacing */
+    .single-post .post-comments+.post-comment-form .comment-respond {
+        padding-top: 0px;
+    }
+
+    /* Single Post: Comments spacing */
+    .single-post .post-comments {
+        padding: 35px 0;
+    }
+
+    /* Single Post: Reply comment title top spacing */
+    .comment-reply-title {
+        margin-top: 0px;
+    }
+
+    /* Single Post: Comment form top spacing */
+    .post-comment-form {
+        padding-top: 35px;
+    }
+
+    /* Single Post: Post thumbnail bottom margin */
+    .blog-posts .post-item.columned .post-thumbnail {
+        margin-bottom: 35px;
+    }
+
+    /* Single Post: Navigation visible on mobile */
+    .post-navigation--label strong {
+        top: 0;
+    }
+
+    /* Studio: Awards and Press columng spacing */
+    .awards-and-press-column {
+        padding-top: 35px;
+    }
+
+    /* Studio: Services Spacing */
+    .services-row {
+        padding: 35px 0;
+    }
+
+    /* Studio: Awards and Press Spacing */
+    .studio-awards,
+    .studio-press {
+        padding: 35px 0;
+    }
+
+    /* Studio: Team member Row Spacing */
+    .team-member {
+        margin-bottom: 35px;
+    }
+
+    /* Studio: Team members Row Spacing */
+    .members {
+        padding-top: 35px;
+    }
+
+    /* Contact: Rows used in contact */
+    .contact-row {
+        padding-top: 35px;
+    }
+}
+
+/* SM: Mobile and tablet devices */
+@media screen and (min-width: 768px) {
+
+    /* News: Page title half page width */
+    .blog .page-heading--title {
+        width: 100%;
+    }
+
+    /* News: Page description half page width */
+    .blog .page-heading--description {
+        width: 100%;
+    }
+
+    /* News: Post image width */
+    .blog-posts .post-item.columned .post-thumbnail {
+        min-width: 290px;
+        max-width: 290px;
+    }
+}
+
+/* MD: Tablet and desktop devices */
+@media screen and (min-width: 992px) {
+
+    /* News: Page title half page width */
+    .blog .page-heading--title {
+        width: 100%;
+    }
+
+    /* News: Page description half page width */
+    .blog .page-heading--description {
+        width: 100%;
+    }
+
+    /* News: Post image width */
+    .blog-posts .post-item.columned .post-thumbnail {
+        min-width: 400px;
+        max-width: 400px;
+    }
+}
+
+/* LG: Desktop devices */
+@media screen and (min-width: 1200px) {
+
+    /* News: Post image width */
+    .blog-posts .post-item.columned .post-thumbnail {
+        min-width: 500px;
+        max-width: 500px;
+    }
+}
+/* ===========================================================
+Custom modification only for ARCHITECTURE Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+    color: red !important;
+}

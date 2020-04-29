@@ -1,0 +1,82 @@
+/*
+Theme Name: Kalium - Blogging Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for BLOGGING Demo - START
+=========================================================== */
+.gmnoprint {
+    display: none;
+}
+
+/* Blog: Set post background to white */
+.blog-posts .post-item.template-standard .post-details {
+    background: #FFF;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+/* Blog: Change search form color */
+.widget.widget_product_search .search-bar input[name="s"], .widget.widget_search .search-bar input[name="s"] {
+    background: #FFF;
+}
+
+/* Blog: Social Networks Color */
+.widget.widget_text .textwidget .social-networks li a {
+    background: #FFF;
+    margin-right: 4px;
+}
+
+/* Blog: Show Date Inline */
+.blog-posts .post-item .post-details .post-meta {
+    display: inline-block;
+}
+
+/* Blog: Color Sidebar Links */
+.blog-archive--widgets .widget ul li a {
+    color: #333;
+}
+
+/* Blog: Comments Background */
+.single-post .post-comments {
+    background: #FFF;
+}
+
+/* Blog: Comments Background Caret */
+.single-post .post-comments:before {
+    border-color: #F5F5F5 transparent transparent transparent;
+}
+
+/* Blog: Comments Reply Background */
+.single-post .post-comments--list .comment-respond {
+    background: #f5f5f5;
+}
+
+/* Contact: Form borders */
+.contact_form textarea {
+    background-image: linear-gradient(#CCC 1px, transparent 1px);
+    border-color: #ccc;
+}
+
+/* Contact: Form borders */
+.contact_form input {
+    border-color: #ccc;
+}
+/* ===========================================================
+Custom modification only for BLOGGING Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+    color: red !important;
+}

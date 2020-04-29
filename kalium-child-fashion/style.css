@@ -1,0 +1,908 @@
+/*
+Theme Name: Kalium - Fashion Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for FASHION Demo - START
+=========================================================== */
+/* Link Color on Focus */
+a:focus,
+a:hover {
+    color: #666;
+}
+
+/* Revolution Slider: Remove Border on  Videos */
+.rev_slider embed,
+.rev_slider iframe,
+.rev_slider object,
+.rev_slider video {
+    border: none !important;
+}
+
+/* Slider Remove Margin Bottom  */
+.wpb_revslider_element {
+    margin-bottom: 0px !important;
+}
+
+/* Menu: Menu Lines Shorter */
+.menu-bar .ham:after,
+.menu-bar .ham:before {
+    left: auto;
+    right: 0px;
+}
+
+/* Menu: Menu Lines Shorter */
+.menu-bar  .ham:after {
+    width: 10px;
+}
+
+/* Menu: Menu Lines Close */
+.menu-bar.exit .ham:after {
+    width: 23px;
+}
+
+/* Menu: Menu Lines Shorter */
+.menu-bar .ham {
+    width: 18px;
+}
+
+/* Menu: Sub Menu Margin Left */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul ul ul,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu ul ul {
+    margin-left: 20px;
+}
+
+/* Menu:  Menu Caret Color */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul ul li.menu-item-has-children:before,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu ul li.menu-item-has-children:before {
+    border-color: transparent transparent transparent #222;
+}
+
+/* Menu: Submenu Redesign */
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu ul {
+    background: #FFF !important;
+    border: 1px solid #222;
+}
+
+/* Menu: Submenu Link Color */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main ul.menu ul li a,
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main div.menu > ul ul li a {
+    color: #222;
+}
+
+/* Menu: Submenu Hover Line Color */
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main ul.menu ul li a:after,
+.main-header.menu-type-standard-menu .standard-menu-container.menu-skin-main div.menu > ul ul li a:after {
+    background-color: #222;
+}
+
+/* Links: Hover Line Start from Centre */
+.main-footer a:after,
+.wrapper a:after {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .3s cubic-bezier(0, 0, 0.16, 0.95);
+    -moz-transition: all .3s cubic-bezier(0, 0, 0.16, 0.95);
+    -o-transition: all .3s cubic-bezier(0, 0, 0.16, 0.95);
+    transition: all .3s ease(0, 0, 0.16, 0.95);
+}
+
+/* Header: Remove Padding of Container*/
+.main-header.fullwidth-header .container {
+    padding: 0px;
+}
+
+/* Header: Mini Cart Styling */
+.menu-cart-icon-container .lab-wc-mini-cart-contents {
+    border-color: #222;
+    box-shadow: none;
+}
+
+/* Shop: Remove WooCommerce Top Padding */
+.woocommerce.page-container {
+    margin-top: 0px;
+}
+
+/* Shop: Sale Button Inside Image */
+.single-product.woocommerce .product .onsale {
+    right: 40px;
+}
+
+/* Shop: Single Font Size and Line Height */
+.woocommerce .summary p {
+    line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Shop: Single Product Padding */
+    .woocommerce.single-product .single-product--product-details>.product>.summary {
+        padding-left: 65px;
+        padding-right: 40px;
+        padding-top: 90px;
+    }
+}
+
+
+/* Shop: Single Product Added to cart message */
+body.single-product .woocommerce .woocommerce-message {
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+    body.single-product .woocommerce .woocommerce-message {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Shop: Single Attributes */
+.woocommerce .single-product .summary .product_meta>span {
+    display: block;
+    border-top: 1px solid #EEE;
+    padding: 15px 0 11px 0;
+}
+
+/* Shop: Single Remove Border from Attributes */
+.woocommerce .single-product .summary .product_meta>span:first-child {
+    border-top: none;
+}
+
+/* Shop: Single Remove Top Spacing */
+.woocommerce .single-product .kalium-woocommerce-product-gallery .main-product-images.plain .woocommerce-product-gallery__image~.woocommerce-product-gallery__image {
+    margin-top: 0px;
+}
+
+/* Shop: Single Remove Border from Prices */
+.woocommerce .product .summary .price ins,
+.woocommerce .product .summary .price>.amount {
+    border-bottom: 0px;
+}
+
+/* Shop: Sale tag */
+.woocommerce .single-product .summary .single_variation_wrap .single_variation>.price del,
+.woocommerce .single-product .summary div[itemprop=offers]>.price del {
+    top: 0px;
+}
+
+/* Shop: Tabs */
+.woocommerce .woocommerce-tabs .entry-content {
+    padding: 0px;
+    background: transparent;
+}
+
+/* Shop: Tabs Remove Background */
+.woocommerce .woocommerce-tabs .tabs li {
+    background: transparent;
+}
+
+/* Shop: Tabs Font Size */
+.woocommerce .woocommerce-tabs .tabs li a {
+    padding: 10px 20px 10px 0px;
+}
+
+/* Shop: Tabs - Hide Title */
+.woocommerce .woocommerce-tabs .entry-content h2 {
+    display: none;
+}
+
+/* Shop: Tabs - Remove Border Bottom */
+.woocommerce .woocommerce-tabs .tabs li.active {
+    border-bottom: none;
+}
+
+/* Shop: Variations  */
+.woocommerce .single-product .summary .variations tbody tr {
+    width: 50%;
+    float: left;
+}
+
+/* Shop: Variations Remove Padding  */
+.woocommerce .single-product .summary .variations tr+tr {
+    padding-top: 0px;
+}
+
+/* Shop: Variations Select Width  */
+.woocommerce .single-product .summary .variations .form-control {
+    width: 180px;
+}
+
+/* Shop: Variations Select Width  */
+.woocommerce .select-option-ui span {
+    color: #222;
+    min-width: inherit;
+}
+
+/* Shop: Variations Select Width  */
+.woocommerce .single-product .summary .variations .form-control {
+    width: 205px;
+}
+
+/* Shop: Add to Cart Button */
+.woocommerce .summary .group_table .button,
+.woocommerce .summary form.cart .button {
+    background: #000;
+    width: 75%;
+    margin-left: 5%;
+    border-radius: 0px;
+    border: 1px solid #222;
+    color: #222;
+    background: transparent;
+}
+
+/* Shop: Form Color */
+.woocommerce .summary .group_table .button:hover,
+.woocommerce .summary form.cart .button:hover {
+    color: #FFF;
+}
+
+/* Shop: Quantity Button Width */
+.woocommerce div.quantity {
+    width: 20%;
+}
+
+/* Shop: Quantity Button Color */
+.woocommerce div.quantity input.qty {
+    border-radius: 0px;
+    border: 1px solid #222;
+    color: #222;
+    background: transparent;
+    min-width: 60px;
+}
+
+/* Shop: Reviews - Remove Padding*/
+.woocommerce .woocommerce-tabs .entry-content #reviews #review_form_wrapper {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Shop: Reviews - Centering Tabs */
+.woocommerce .woocommerce-tabs .entry-content .shop_attributes {
+    margin: 0 auto;
+}
+
+/* Shop: Reviews - Centering Tabs */
+.woocommerce .woocommerce-tabs .tabs {
+    text-align: center;
+}
+
+/* Shop: Reviews - Centering Tabs */
+.woocommerce .woocommerce-tabs .tabs li {
+    float: none;
+    display: inline-block;
+}
+
+/* Shop: Reviews - Remove Padding from Reviews */
+.woocommerce .woocommerce-tabs .tabs li a {
+    padding: 0px;
+}
+
+/* Shop: Reviews - Padding */
+.woocommerce .woocommerce-tabs .tabs li {
+    padding: 0 15px;
+}
+
+/* Shop: Reviews Border */
+.woocommerce .woocommerce-tabs .tabs li.active a {
+    border-bottom: 1px solid #222;
+}
+
+/* Shop: Reviews Margin Bottom */
+.woocommerce .woocommerce-tabs .tabs {
+    margin-bottom: 30px
+}
+
+/* Shop: Reviews Width */
+.woocommerce .woocommerce-tabs .entry-content {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* Shop: Reviews Rating Style Circle */
+.woocommerce .star-rating .star-rating-icons .circle {
+    width: 5px;
+    height: 5px;
+    margin-left: 5px;
+}
+
+/* Shop: Remove Margin from Product Images */
+.woocommerce .single-product .images .product-images-carousel.plain a+a {
+    margin-top: 0px;
+}
+
+/* Shop: Dropdown */
+.woocommerce .woocommerce-ordering-container .dropdown.open .dropdown-toggle {
+    border: 1px solid #000;
+}
+
+/* Shop: Dropdown */
+.woocommerce .woocommerce-ordering-container .dropdown .dropdown-toggle {
+    border: 1px solid transparent;
+}
+
+/* Shop: Dropdown */
+.dropdown .dropdown-menu {
+    border: 1px solid #000;
+    border-top: none;
+}
+
+/* Shop: Sale Replacement */
+.woocommerce .product .onsale {
+    transform: none;
+    padding: 0px 5px;
+    height: auto;
+    width: auto;
+    color: #333;
+    border-radius: 0px;
+    line-height: 30px;
+    top: 20px;
+    right: 25px;
+    border: 1px solid #333;
+    margin: 0px;
+    position: absolute;
+    display: inline-block;
+    background: #FFF;
+    box-shadow: 5px 5px 0px rgba(1,1,1,0.05);
+    text-transform: uppercase;
+}
+
+/* Shop: Out of Stock Replacement */
+.woocommerce .product .onsale.oos {
+    background: #FFF;
+    line-height: inherit;
+    padding: 0px 5px;
+}
+
+/* Shop: Featured Replacement */
+.woocommerce .product .onsale.featured {
+    background: #FFF;
+}
+
+/* Shop: Clear for Add to cart and Drodowns */
+.single_variation_wrap {
+    clear: both;
+}
+
+/* Shop: Size Guide */
+.sg {
+    background: transparent !important;
+    color: #FFF;
+}
+
+/* Shop: Size Guide */
+div.sg table, div.sg table th {
+    color: #FFF;
+}
+
+/* Shop: Size Guide Table Borders */
+div.sg table tr:first-child th,
+div.sg table tr td,
+div.sg table tr th {
+    border-bottom-color: #444444;
+    border-right-color: #444444;
+}
+
+/* Shop: Size Guide Table Remove Padding */
+#ct_size_guide {
+    padding: 0px;
+}
+
+/* Shop: Size Guide Table Remove Horizontal Lines */
+#ct_size_guide hr {
+    display: none !important;
+}
+
+/* Shop: Category Title Count */
+mark.count {
+    display: none;
+}
+
+/* Shop: Category Title */
+.woocommerce .shop-categories .product-category .woocommerce-loop-category__title,
+.woocommerce .shop-categories .product-category h3 {
+    background: transparent;
+    padding: 0px;
+    transform: none;
+    left: 30px;
+    top: auto;
+    bottom: 30px;
+    color: #FFF;
+    letter-spacing: 5px;
+}
+
+/* Shop: Category Title */
+.woocommerce .shop-categories .product-category a:hover .woocommerce-loop-category__title,
+.woocommerce .shop-categories .product-category a:hover h3 {
+    color: #FFF;
+}
+
+/* Shop: Category Hover */
+.woocommerce .shop-categories .product-category a:hover:before {
+    background-color: transparent;
+}
+
+/* Shop: Title Margin  */
+.woocommerce .woocommerce-header {
+    margin: 50px 0;
+}
+
+/* Shop: Single Image Remove Top Spacing */
+.woocommerce .single-product .kalium-woocommerce-product-gallery .main-product-images.plain .woocommerce-product-gallery__image~.woocommerce-product-gallery__image {
+    margin-top: 0px;
+}
+
+/* Footer: Remove Bottom Margin */
+.main-footer .footer-widgets {
+    margin-bottom: 25px;
+}
+
+/* Footer: Social Networks */
+.main-footer .footer-widgets .widget .social-networks.rounded li a {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0 5px;
+}
+
+/* Footer: Social Networks Background */
+.main-footer .footer-widgets .social-networks.rounded a {
+    background-color: #222;
+}
+
+/* Footer: Social Networks Color */
+.main-footer .footer-widgets .widget .social-networks.rounded li a i {
+    color: #FFF;
+}
+
+/* Footer Background and Border */
+footer.main-footer {
+    background-color: #FFF !important;
+    border-top: 2px solid #222;
+}
+
+
+/* Checkout -  Removed background color from the Paypal form */
+.woocommerce .bordered-block .payment_methods .payment_box {
+    background: transparent;
+}
+
+/* Checkout -  Border Color */
+.woocommerce .bordered-block {
+    border-color: #222;
+}
+
+/* Checkout -  Border Color for Table */
+.woocommerce .shop_table .cart-subtotal {
+    border-bottom-color: #222;
+}
+
+/* Checkout - Border Color */
+.woocommerce .shop_table>tbody>tr,
+.woocommerce .bordered-block h2,
+.woocommerce .shop_table>tfoot>tr {
+    border-bottom-color: #222 !important;
+}
+
+/* Checkout - Input Border Color */
+.form-control {
+    border-color: #222;
+}
+
+/* Checkout - Input Focus Border Color */
+.form-control:focus {
+    border-color: #999;
+}
+
+/* Checkout - Select Border Color */
+.woocommerce .select2-container.select2-container--default .select2-selection--single{
+    /*	border-color: #222; */
+}
+
+/* Checkout - Select Border Color */
+.woocommerce-page .select2-dropdown {
+    border-color: #222;
+}
+
+.woocommerce-page .select2-dropdown .select2-search__field {
+    border-color: #222;
+}
+
+/* Checkout - Bank Transfer Border */
+.woocommerce .bordered-block .payment_methods .payment_box {
+    border-color: #222;
+}
+
+/* Cart - Coupon Holder Border */
+.woocommerce .checkout_coupon .coupon-holder {
+    border-color: #222;
+}
+
+/* Product: Make View Cart  Clickable */
+body.single-product .woocommerce .woocommerce-message {
+    z-index: 2;
+}
+
+/* Cart -  Border Color */
+.woocommerce .cart-collaterals .cart_totals table th,
+.woocommerce .cart-collaterals .cart_totals table tr {
+    border-bottom-color: #222;
+}
+
+/* About: About Text */
+.wpb_wrapper .section-title.about-us-title  h2 {
+    position: absolute;
+    top: -110px;
+    color: #FFF;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+/* About: About Title */
+.wpb_wrapper .section-title.about-us-title {
+    margin: 0px;
+}
+
+/* About: Font Size and Padding */
+.about-us {
+    padding: 0px 50px;
+    margin-bottom: 35px;
+}
+
+/* About: Working Hours */
+.working-hours {
+    line-height: 40px;
+}
+
+/* Contact: Remove Label Border */
+.comment-form .labeled-textarea-row label,
+.comment-form .labeled-input-row label,
+.contact-form .form-group label {
+    border-bottom-color: #222;
+}
+
+/* Blog - Caption on center */
+body.single-post .wp-caption-text {
+    text-align: center;
+}
+
+/* Blog - Horizontal line */
+body.single-post hr {
+    border-color: #e0e0e0;
+    border-style: dashed;
+}
+
+/* Blog: Single Post Title Margin */
+.single-post .post .entry-header {
+    margin-bottom: 20px;
+}
+
+/* Blog: Single Post Colorize Date and Categories */
+.single-post .post .post-meta a,
+.single-post .post .post-meta {
+    color: #666;
+}
+
+/* Blog: Remove Underline on Titles */
+.blog-posts .post-item .post-details .post-title a:after {
+    display: none;
+}
+
+/* Blog: Sidebar */
+.column--sidebar .blog-archive--widgets {
+    border: 2px solid #222;
+    padding: 30px 40px !important;
+    margin-top: 0px;
+}
+
+/* Blog Post: Sidebar */
+.single-post .post-sidebar {
+    border: 2px solid #222;
+    padding: 30px 40px !important;
+}
+
+/* Blog: Sidebar Remove Top Margin */
+.column--sidebar .blog-archive--widgets {
+    margin-top: inherit;
+}
+
+/* Blog: Sidebar Link Color */
+.column--sidebar .blog-archive--widgets .widget ul li {
+    padding: 3px 0;
+}
+
+/* Blog: Sidebar Link Color */
+.column--sidebar .blog-archive--widgets .widget ul li a {
+    color: #777;
+}
+
+/* Blog: Post Info */
+.blog-posts .post-item.template-standard .post-details {
+    padding: 35px 10px;
+}
+
+/* Blog: Sidebar */
+.portfolio-holder .portfolio-item.with-padding {
+    padding: 0px 15px;
+}
+
+
+/* Blog: Hide Icons */
+.blog-posts .post-item .post-details .post-meta i.icon {
+    display: none;
+}
+
+/* Blog: Date Text Decoration */
+.blog-posts .post-item .post-details .post-meta {
+    float: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Blog: Sidebar */
+.blog-sidebar {
+    border: 2px solid #222;
+    padding: 30px 40px !important;
+    margin-top: 0px;
+}
+
+/* Blog: Center Posts */
+.blog-posts .post-item.template-standard .post-details {
+    text-align: center;
+}
+
+/* Blog Widgets: Remove Borders */
+.wpb_wrapper .lab-blog-posts .blog-post-entry,
+.blog-posts .post-item.template-standard .post-details,
+.blog-posts .post-item.template-standard .post-thumbnail {
+    border: none;
+}
+
+/* Blog Widgets: Post Date */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-date {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Blog Widgets: Hide Description */
+.blog-post-excerpt {
+    display: none;
+}
+
+/* Blog Widgets: Remove Padding */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Page: Center Title */
+.centered-title {
+    text-align: center;
+}
+
+/* Page: White Title */
+.white-title h2 {
+    color: #FFF;
+}
+
+/* Page: White Paragraph */
+.white-title p {
+    color: #FFF;
+}
+
+/* Page Title Margin */
+.wpb_wrapper .section-title {
+    margin: 50px 0;
+}
+
+/* Page Title */
+.wp-page-title {
+    margin: 50px 0;
+}
+
+/* Page Title: Remove Margin from Heading */
+.section-title h1,
+.section-title h2,
+.section-title h3 {
+    margin: 0px;
+}
+
+/* Forms: Border Bottom Color */
+.comment-form input,
+.comment-form textarea,
+.contact-form input,
+.contact-form textarea {
+    border-bottom-color: #222;
+}
+
+/* Forms: Textarea Line Color */
+.contact-form textarea,
+.comment-form textarea {
+    background-image: linear-gradient(#222 1px, transparent 1px);
+}
+
+/* Cart: Remove from Cart Visible  */
+.woocommerce .shop_table .cart_item .product-remove a {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Cart: Table Border Color */
+.woocommerce .shop_table tr {
+    border-bottom-color: #222;
+}
+
+/* Visual Composer List Color */
+.wpb_wrapper .wpb_text_column ol li,
+.wpb_wrapper .wpb_text_column ul li {
+    color: inherit;
+}
+
+/* Newsletter: Input Color */
+.email-container .field-wrap > div input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    margin-top: 40px;
+    padding: 10px 0px;
+    color: #FFF;
+}
+
+/* Login: Border Input Color */
+.woocommerce .bordered-block .login .absolute input,
+.woocommerce .bordered-block .register .absolute input,
+.woocommerce .bordered-block.with-form-labels .absolute input {
+    border-bottom-color: #222;
+}
+
+/* Body: Large Screens */
+@media (min-width: 1400px) {
+    .container, .content-area {
+        width: 1370px;
+        max-width: 1370px;
+    }
+
+    .vc-container .vc-parent-row.row-stretch_row>.vc_row,
+    .vc-container .vc-parent-row.row-default {
+        width: 1370px;
+        max-width: 1370px;
+    }
+
+    .woocommerce .products.columns-3 .product {
+        width: 33.3%;
+    }
+}
+
+/* Body: Large Screens */
+@media (min-width: 1600px) {
+    .container, .content-area {
+        width: 1570px;
+        max-width: 1570px;
+    }
+
+    .vc-container .vc-parent-row.row-stretch_row>.vc_row,
+    .vc-container .vc-parent-row.row-default {
+        width: 1570px;
+        max-width: 1570px;
+    }
+
+    .woocommerce .products.columns-3 .product {
+        width: 33.3%;
+    }
+}
+
+/* Mobile View CSS */
+@media screen and (max-width: 768px) {
+    /* Shop: Sale Button Inside Image */
+    .single-product.woocommerce .product .onsale {
+        right: 30px;
+    }
+
+    /* Shop - Description Remove Top Padding */
+    .woocommerce .woocommerce-tabs {
+        padding-top: 0px;
+    }
+
+    /* Shop - Reviews */
+    .woocommerce .woocommerce-tabs .entry-content {
+        width: auto;
+    }
+
+    /* Shop - Reviews */
+    .woocommerce .woocommerce-tabs .entry-content #reviews #review_form_wrapper .form-submit {
+        width: 100%;
+        margin: 0px;
+        padding: 0px 15px;
+    }
+
+    /* Shop - Reviews Remove Background */
+    .woocommerce .woocommerce-tabs .tabs li {
+        background: transparent;
+        padding: 0px;
+        text-align: left;
+    }
+
+    /* Shop - Reviews Remove Border */
+    .woocommerce .woocommerce-tabs .tabs li a {
+        background: transparent;
+        padding: 5px 0px;
+        transition: none;
+    }
+
+    .woocommerce .woocommerce-tabs .tabs li.active {
+        background: transparent !important;
+    }
+
+    .woocommerce .single-product .summary {
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+    .woocommerce .summary .group_table .button,
+    .woocommerce .summary form.cart .button {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    /* About Us: Remove Padding */
+    .about-us {
+        padding: 0px;
+    }
+
+    /* About Us: Title */
+    .wpb_wrapper .section-title.about-us-title h2 {
+        position: relative;
+        top: 0px;
+        color: #222;
+        margin: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    /* Login and Register: Padding */
+    .woocommerce .col2-set .col-1 {
+        padding-right: 15px;
+    }
+
+    /* Login and Register: Padding */
+    .woocommerce .col2-set .col-2 {
+        padding-left: 15px;
+    }
+}
+
+.single_add_to_cart_button:hover {
+    color: #222 !important;
+}
+
+
+.woocommerce.single-product .summary p.price {
+    margin: 40px 0;
+    color: #000;
+}
+
+/* Size guide font color */
+.ct-size-guide table td {
+    color: #fff;
+}
+
+
+/* ===========================================================
+Custom modification only for FASHION Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+    color: red !important;
+}

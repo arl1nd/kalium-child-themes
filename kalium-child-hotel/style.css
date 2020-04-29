@@ -1,0 +1,1218 @@
+/*
+Theme Name: Kalium - Hotel Theme
+Theme URI: https://laborator.co/themes/kalium/
+Author: Laborator
+Author URI: https://laborator.co/
+Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Version: 1.0
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: kalium
+Text Domain: kalium
+*/
+/* ===========================================================
+Custom modification only for HOTEL Demo - START
+=========================================================== */
+/* General: Title Divider */
+.title-divider {
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+    width: 220px;
+    height: auto;
+}
+
+/* General: Image Shadow */
+.image-shadow {
+    -webkit-box-shadow: -20px 15px 90px rgba(0, 0, 0, 0.30);
+    box-shadow: -20px 15px 90px rgba(0, 0, 0, 0.30);
+}
+
+/* General: Title Top Margin */
+.section-title {
+    margin-top: 40px;
+}
+
+/* General: Line Height */
+body,
+p {
+    line-height: 1.7;
+}
+
+/* General: Hide Underline */
+.site-footer a:after,
+.wrapper a:after {
+    display: none;
+}
+
+/* General: Text Link Hover Color */
+.site-footer a:hover,
+.blog-posts .post-item .post-details .post-title a:hover,
+.single-post .post .post-meta a:hover,
+.wrapper a:hover,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title a:hover,
+body a:hover {
+    color: #222;
+}
+
+/* General: Page Heading Spacing */
+.page-heading {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* General: Page Heading Width */
+.page-heading--title-section {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* General: Page Heading Title Margin Bottom */
+.page-heading--title,
+.portfolio-title-holder .pt-column.pt-column-title h1 {
+    margin-bottom: 15px;
+}
+
+/* General: Page Heading Description Remove Top Margin */
+.page-heading--description p~p {
+    margin-top: 0px;
+}
+
+/* Header: Menu */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul>li+li,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li+li {
+    margin-left: 30px;
+}
+
+/* Header: Menu Hover Color */
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li>a:hover {
+    color: #c39a2c !important;
+}
+
+/* Header: Menu Active Item Color */
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li.current-menu-item>a,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li.current_page_parent>a,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu>li>a:hover {
+    color: #c39a2c !important;
+}
+
+/* Header: Sub Menu Border */
+.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul ul,
+.main-header.menu-type-standard-menu .standard-menu-container ul.menu ul {
+    background-color: #c39a2c !important;
+    box-shadow: 0px 0px 0px 5px #c39a2c, inset 0px 0px 0px 1px rgba(255,255,255,.5) !important;
+}
+
+/* Form: Label */
+.labeled-input-row label,
+.labeled-textarea-row label {
+    letter-spacing: 2px;
+}
+
+/* Homepage: Slider Bullets */
+.custom .tp-bullet {
+    width: 60px;
+    height: 2px;
+    background: rgba(255,255,255,0.5);
+}
+
+/* Homepage: Slider Bullets */
+.custom .tp-bullet:hover,
+.custom .tp-bullet.selected {
+    background: rgba(255,255,255,1);
+}
+
+/* Homepage: Intro Row Spacing */
+.homepage-intro {
+    padding: 45px 0;
+}
+
+/* Homepage: Auto Type Text */
+.home-auto-type h2 {
+    margin-top: 0px;
+}
+
+/* Homepage: Service Icons */
+.service-icons {
+    padding-top: 35px;
+}
+
+/* Homepage: Service Icons */
+.service-icons img {
+    height: 48px;
+    width: auto;
+}
+
+/* Homepage: Reviews */
+.homepage-reviews {
+    padding-top: 45px;
+}
+
+/* Homepage: Reviews */
+.vc_tta-container {
+    margin-bottom: 0px;
+}
+
+/* Homepage: Reviews */
+.review-tabs {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Homepage: Show more Button */
+.homepage-events  .show-more {
+    margin: 0px;
+}
+
+/* Homepage: Blog Posts More Button */
+.home .show-more .reveal-button {
+    border: none;
+    letter-spacing: 2px;
+}
+
+/* Homepage: Blog Posts More Button Color */
+.home .show-more .reveal-button a {
+    color: #000;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,.1), 0px 0px 0px 2px #FFF, 0px 0px 0px 3px rgba(0,0,0,.1);
+}
+
+/* Homepage: Blog Posts More Button on Hover */
+.home .show-more .reveal-button a:hover {
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,.5), 0px 0px 0px 2px #FFF, 0px 0px 0px 3px rgba(0,0,0,.5);
+}
+
+/* Homepage: Events Section More Button on Hover */
+.homepage-events .show-more .reveal-button a {
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,.1), 0px 0px 0px 2px #EEE, 0px 0px 0px 3px rgba(0,0,0,.1);
+}
+
+/* Homepage: Events Section More Button on Hover */
+.homepage-events .show-more .reveal-button a:hover {
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,.5), 0px 0px 0px 2px #EEE, 0px 0px 0px 3px rgba(0,0,0,.5);
+}
+
+/* Homepage: Events Section Padding */
+.homepage-events {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+/* Homepage: Blog Posts Background */
+.homepage-posts .blog-post-entry .blog-post-content-container {
+    background: #FFF;
+}
+
+/* Homepage: Rooms Spacing */
+.homepage-rooms {
+    padding-top: 45px;
+}
+
+/* Homepage: Rooms More Link Spacing */
+.homepage-rooms .wpb_wrapper .lab-portfolio-items .more-link {
+    margin-top: 10px;
+}
+
+/* Homepage: Rooms More Link Spacing */
+.homepage-rooms .show-more {
+    margin: 0px;
+}
+
+/* Blog: Post Box Spacing */
+.blog-posts .post-item.template-standard .post-details {
+    padding: 35px 40px;
+}
+
+/* Blog: Post Box Animation Transition */
+.blog-posts .post-item.template-standard {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Blog: Post Box Shadow */
+.blog-posts .post-item.template-standard:hover {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+}
+
+/* Blog: Post Title Underline Removed */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title a:after,
+.blog-posts .post-item .post-details .post-title a:after {
+    display: none;
+}
+
+/* Blog: Post Title Hover */
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title a:hover,
+.blog-posts .post-item .post-details .post-title a:hover {
+    color: #c39a2c;
+}
+
+/* Blog: Category and Date Hide Icons */
+.blog-posts .post-item .post-details .post-meta i {
+    display: none;
+}
+
+/* Blog: Category and Date Letter Spacing */
+.widget.widget_recent_entries li .post-date,
+.woocommerce .woocommerce-Reviews #comments .commentlist .comment-text .meta time,
+.single-post .post .post-meta-only .post-meta,
+.single-post .post-comments--list .comment .commenter-details .date,
+.post-navigation--label em,
+.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-date,
+.blog-posts .post-item .post-details .post-meta {
+    letter-spacing: 2px;
+}
+
+/* Blog: Category and Date Hide Bottom Margin */
+.blog-posts .post-item .post-details .post-meta {
+    margin-bottom: 5px;
+}
+
+/* Blog: External Post Styling */
+.post_format-post-format-link .post-details {
+    background-color: #f3ede5;
+    border: none !important;
+    padding: 30px;
+}
+
+/* Blog: External Post Box Shadow */
+.post_format-post-format-link .post-item {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+}
+
+/* Blog: External Post Hide Date and Category */
+.post_format-post-format-link .post-details .post-meta {
+    display: none;
+}
+
+/* Blog: External Post Remove Bottom Spacing */
+.post_format-post-format-link .post-details .post-excerpt {
+    margin-bottom: 0px !important;
+}
+
+/* Blog: External Post Remove Bottom Paragraph Spacing */
+.post_format-post-format-link .post-details .post-excerpt p {
+    margin-bottom: 0px;
+}
+
+/* Single Blog: Category Link Color */
+.single-post .post .post-meta a {
+    color: #c39a2c;
+}
+
+/* Single Blog: Hide Category and Date Icons */
+.single-post .post .post-meta i {
+    line-height: 0;
+}
+
+/* Blog: Sidebar No Spacing for Custom HTML Widgets */
+.widget_text.widget.widget_custom_html {
+    padding: 0px !important;
+}
+
+/* Blog: Sidebar Search Box */
+.widget.widget_product_search .search-bar input[name="s"],
+.widget.widget_search .search-bar input[name="s"] {
+    background: none;
+}
+
+/* Blog: Sidebar Tag Background Color */
+.widget-area--skin-background-fill .widget.widget_tag_cloud a {
+    background: #FFF;
+}
+
+/* Accomodation: Title and Description Display */
+.portfolio-title-holder {
+    display: block;
+}
+
+/* Accomodation: Title and Description Center */
+.portfolio-title-holder .pt-column.pt-column-title {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    padding-right: 0px;
+}
+
+/* Accomodation: Filter Center Categories */
+.portfolio-title-holder .pt-column {
+    margin: auto;
+}
+
+/* Accomodation: Filter Text Color */
+.product-filter ul li.active a {
+    color: #c39a2c;
+}
+
+/* Accomodation: Filter Line Strike Through */
+.product-filter ul li a:after {
+    height: 2px !important;
+    display: block;
+    background: #c39a2c;
+    content: "";
+    width: 0%;
+    position: absolute;
+    top: 45%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    -o-transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    opacity: 0.5;
+}
+
+/* Accomodation: Filter Line Width */
+.product-filter ul li a:hover:after {
+    width: 100%;
+    opacity: 1;
+}
+
+/* Accomodation: Filter Line Opacity */
+.product-filter ul li.active a:after {
+    opacity: 1;
+}
+
+/* Accomodation: Filter Center */
+.product-filter ul {
+    text-align: center;
+}
+
+/* Accomodation: Category Letter Spacing */
+.portfolio-holder .thumb .hover-state .info p {
+    letter-spacing: 2px;
+}
+
+/* Accomodation: Category Color on Hover */
+.portfolio-holder .thumb .hover-state .info p a:hover {
+    color: #222;
+}
+
+/* Room: Features List */
+.single-portfolio-holder .checklist-entry ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* Room: Features List Images */
+.single-portfolio-holder .checklist-entry img {
+    vertical-align: baseline;
+    margin-right: 10px;
+}
+
+/* Room: Buton Styling */
+.single-portfolio-holder .details .link a {
+    background: #c39a2c;
+    padding: 5px 20px;
+    color: #FFF;
+}
+
+/* Room: Full Screen Arrow*/
+.single-portfolio-holder.portfolio-type-5 .portfolio-description-container .portfolio-description-fullinfo .collapse-project-info {
+    margin: 0px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+/* Room: Full Screen Arrow */
+.single-portfolio-holder.portfolio-type-5 .portfolio-description-container .portfolio-description-fullinfo:hover .collapse-project-info {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Dining: Welcome Spacing */
+.restaurant {
+    padding: 45px 0;
+}
+
+/* Dining: Second Row Spacing */
+.restaurant-row-2 {
+    padding: 30px 0;
+}
+
+/* Dining: Menu Spacing */
+.restaurant-menu {
+    padding: 0;
+    padding-top: 35px;
+}
+
+/* Dining: Menu Title */
+.restaurant-menu h4 {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/* Dining: Menu Meal Tabs Align Center */
+.restaurant-menu ul {
+    text-align: left;
+}
+
+/* Dining: Menu Meal Tabs Hide Underline */
+.restaurant-menu li a:after {
+    display: none !important;
+}
+
+/* Dining: Menu Meal Tabs */
+.restaurant-menu li {
+    border-bottom: 1px solid #e0ded4 !important;
+    padding: 10px 15px 5px 0px !important;
+    margin: 0px !important;
+}
+
+/* Dining: Menu Meal Tabs Active */
+.restaurant-menu ul li.vc_active {
+    border-bottom-color: #222 !important;
+}
+
+/* Dining: Menu Meal Tabs Active Color */
+.restaurant-menu ul li.vc_active a {
+    color: #222 !important;
+}
+
+/* Dining: Menu Tabs Remove Transition */
+.wpb-js-composer .vc_tta.restaurant-menu .vc_tta-panel-body {
+    -webkit-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+}
+
+/* Dining: Menu Food Name */
+.food-list h3 {
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+/* Dining: Menu Food Price */
+.food-list del {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Dining: Menu Ingredients */
+.food-list p {
+    padding-right: 0;
+    color: #888;
+}
+
+/* Dining: Menu Reserve a Table Button */
+.vc_btn3:after {
+    background-color: transparent !important;
+}
+
+/* Dining: Menu Spacing */
+.menu-catalog {
+    padding: 0;
+    padding-top: 20px;
+}
+
+/* Spa: Service Padding */
+.spa-services {
+    padding: 40px 0;
+}
+
+/* Spa: Menu Tabs Styling */
+.spa-menu-row {
+    padding: 50px 0;
+}
+
+/* Spa: Title Divider Center */
+.spa-divider {
+    text-align: center !important;
+}
+
+/* Spa: Title Divider Width */
+.spa-divider img {
+    width: 20%;
+}
+
+/* Spa: Massage Menu Padding and Shadow */
+.spa-menu .vc_tta-panel-body {
+    padding: 25px 50px !important;
+    -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .15);
+    box-shadow: 0 5px 40px rgba(0, 0, 0, .15);
+}
+
+/* Spa: Massage Menu Tabs */
+.spa-menu .vc_tta-tab {
+    padding-bottom: 0px !important;
+    border-bottom: none !important;
+    padding-right: 5px !important;
+}
+
+/* Spa: Massage Menu Tabs */
+.spa-menu .vc_tta-tab a {
+    padding: 5px 20px !important;
+}
+
+/* Spa: Types of Massage */
+.types-of-massage {
+    padding-top: 35px;
+}
+
+/* Spa: Types of Massage Text Spacing */
+.types-of-massage h3 {
+    line-height: 1.8;
+}
+
+/* Spa: Types of Massage Icon Size */
+.types-of-massage h3 img {
+    width: 36px;
+    margin-right: 20px;
+    float: left;
+}
+
+/* Spa: Types of Massage Background */
+.massage-row {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-color: #fafafa;
+    padding: 50px 0;
+}
+
+/* Activities: Sub Heading Letter Spacing */
+.sub-heading {
+    letter-spacing: 5px;
+}
+
+/* Activities: Separator Rotate */
+.separator-rotate {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* Contact: Address Row */
+.contact-address-row {
+    padding-top: 70px;
+}
+
+/* Contact: Adress Small Box Spacing */
+.contact-address-small-box {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Contact: Address Spacing */
+.contact-address .vc_column-inner {
+    margin-top: 50px;
+    margin-right: -100px;
+    padding: 55px 130px 35px 55px;
+}
+
+/* Contact: Form Border Color */
+.labeled-textarea-row textarea {
+    background-image: -webkit-linear-gradient(#CCC 1px, transparent 1px);
+    background-image: -o-linear-gradient(#CCC 1px, transparent 1px);
+    background-image: linear-gradient(#CCC 1px, transparent 1px);
+}
+
+/* Contact: Form Border Color */
+.labeled-input-row input {
+    border-bottom-color: #CCC;
+}
+
+/* Contact: Small Title */
+.title-stylized {
+    letter-spacing: 2px;
+    margin-bottom: 20px
+}
+
+/* Contact: Small Title */
+.wpb_wrapper .lab-google-map.contact-page {
+    margin-bottom: 35px;
+    -webkit-box-shadow: -20px 15px 90px rgba(0, 0, 0, 0.30);
+    box-shadow: -20px 15px 90px rgba(0, 0, 0, 0.30);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Footer: Container Width */
+@media (min-width: 1200px) {
+    footer .container {
+        width: 960px !important;
+    }
+}
+
+/* Footer: Background Color */
+footer.site-footer {
+    background: #222 !important;
+}
+
+/* Footer: Top Padding */
+footer.site-footer {
+    padding-top: 30px;
+}
+
+/* Footer: Link Color on Hover */
+.site-footer .footer-widgets .widget.widget_nav_menu ul li a:hover {
+    color: #FFF;
+}
+
+/* Footer: Link Bottom Line */
+.site-footer .footer-widgets .widget.widget_nav_menu ul li a:after {
+    height: 1px !important;
+    display: block;
+    background: #c39a2c;
+    content: "";
+    width: 0%;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    -o-transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    opacity: 0.5;
+}
+
+/* Footer: Link Bottom Line on Hover */
+.site-footer .footer-widgets .widget.widget_nav_menu ul li a:hover:after {
+    width: 100%;
+    opacity: 1;
+}
+
+/* Footer: Widget Bottom Margin */
+.widget-area.widgets--columned-layout>.widget {
+    margin-bottom: 0px;
+}
+
+/* Footer: Widget Link Spacing */
+.site-footer.site-footer-inverted .footer-widgets .widget ul li {
+    padding: 2px 0;
+}
+
+/* Footer: Widget Link Color */
+.site-footer.site-footer-inverted .footer-widgets .widget a {
+    color: #999;
+}
+
+/* Footer: Widget Title Letter Spacing */
+.site-footer .footer-widgets .widget .widgettitle {
+    letter-spacing: 2px;
+}
+
+/* Footer: Widget Padding */
+.site-footer .footer-widgets {
+    margin: 30px 0px;
+}
+
+/* Footer: Awards */
+.footer-awards {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+/* Footer: Awards Show Inline */
+.footer-awards li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/* Footer: Awards Width */
+.footer-awards li img {
+    width: 64px;
+}
+
+/* Footer: Bottom Line */
+.site-footer.site-footer-inverted hr {
+    display: none;
+}
+
+/* Footer: Bottom Footer */
+.site-footer .footer-bottom-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Footer: Bottom Footer Display Mode */
+.site-footer.footer-bottom-horizontal .footer-bottom-content {
+    display: block;
+}
+
+/* Footer: Bottom Footer Full Width */
+.site-footer.footer-bottom-horizontal .footer-bottom-content .footer-content-right {
+    width: 100%;
+    display: block;
+}
+
+/* Footer: Bottom Footer Center */
+.site-footer.footer-bottom-horizontal .footer-bottom-content .footer-content-left {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer: Copyright Text Align */
+.site-footer.site-footer-inverted .footer-bottom-content .copyrights {
+    text-align: center;
+}
+
+/* Footer: Copyright Color and Letter Spacing */
+.site-footer.site-footer-inverted .footer-bottom-content .copyrights p {
+    letter-spacing: 4px;
+    color: #999;
+}
+
+/* Footer: Copyright Color and Letter Spacing link */
+.site-footer.site-footer-inverted .footer-bottom-content .copyrights a {
+    letter-spacing: 4px;
+    color: #999;
+}
+
+/* Footer: Social Networks Top Margin */
+.site-footer.footer-bottom-horizontal .footer-bottom-content .social-networks {
+    margin-top: 0px;
+}
+
+/* Footer: Social Networks Remove Background */
+.site-footer.footer-bottom-horizontal .footer-bottom-content .social-networks.rounded li a {
+    width: 35px;
+    height: 35px;
+    background: transparent !important;
+}
+
+/* Footer: Social Networks Icon Color */
+.site-footer.footer-bottom-horizontal .footer-bottom-content .social-networks.rounded li a i {
+    color: #999;
+}
+
+/* Body: Large Screens bigger containers */
+@media (min-width: 1400px) {
+    .container, .content-area {
+        width: 1370px;
+        max-width: 1370px;
+    }
+
+    .vc-container .vc-parent-row.row-stretch_row>.vc_row,
+    .vc-container .vc-parent-row.row-default {
+        width: 1370px;
+        max-width: 1370px;
+    }
+}
+
+/* Body: Large Screens */
+@media (min-width: 1600px) {
+    .container, .content-area {
+        width: 1570px;
+        max-width: 1570px;
+    }
+    .vc-container .vc-parent-row.row-stretch_row>.vc_row,
+    .vc-container .vc-parent-row.row-default {
+        width: 1570px;
+        max-width: 1570px;
+    }
+}
+
+/* Footer: Link Transition */
+.site-footer .footer-widgets .widget.widget_nav_menu ul li a {
+    -webkit-transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    -o-transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+    transition: all .2s cubic-bezier(0, 0, 0.16, 0.95);
+}
+
+/* Go to Top button */
+.go-to-top {
+    background-color: #c39a2c;
+}
+
+/* WPB Blog Posts Transition */
+.wpb_wrapper .lab-blog-posts .blog-post-entry {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* WPB Blog Posts Box Shadow */
+.wpb_wrapper .lab-blog-posts .blog-post-entry:hover {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+}
+
+.vc_sep_width_10 {
+    width: 6%;
+}
+
+/* XS: Mobile devices */
+@media screen and (max-width: 480px){
+
+    /* General: Image Shadow */
+    .image-shadow {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    /* General: Page Heading Width */
+    .page-heading--title-section {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    /* General: Mobile Menu Trigger */
+    .menu-bar .ham:after,
+    .menu-bar .ham:before,
+    .menu-bar .ham {
+        height: 1px;
+    }
+
+    /* General: Mobile Menu Trigger */
+    .menu-bar .ham:after {
+        top: 6px;
+    }
+
+    /* General: Mobile Menu Trigger */
+    .menu-bar .ham:before,
+    .menu-bar .ham:after,
+    .menu-bar .ham {
+        width: 30px;
+    }
+
+    /* General: Mobile Menu Trigger */
+    .menu-bar .ham:before {
+        top: -6px;
+    }
+
+    /* General: Mobile Menu Trigger */
+    .menu-bar.exit .ham:after {
+        -webkit-transform: translateY(-6px) rotateZ(45deg);
+        transform: translateY(-6px) rotateZ(45deg);
+    }
+
+    /* General: Mobile Menu Trigger */
+    .menu-bar.exit .ham:before {
+        -webkit-transform: translateY(6px) rotateZ(-45deg);
+        transform: translateY(6px) rotateZ(-45deg);
+    }
+
+    /* General: Mobile Menu Search Icon */
+    .mobile-menu-wrapper .mobile-menu-container .search-form input::placeholder,
+    .mobile-menu-wrapper .mobile-menu-container .search-form label {
+        color: rgba(255,255,255,0.75);
+    }
+
+    /* General: Mobile Menu Background */
+    .mobile-menu-wrapper.mobile-menu-fullscreen+.mobile-menu-overlay {
+        background-color: rgba(195, 154, 44, 0.95);
+    }
+
+    /* General: Mobile Menu  */
+    .mobile-menu-wrapper .mobile-menu-container div.menu>ul>li>a, .mobile-menu-wrapper .mobile-menu-container ul.menu>li>a {
+        padding: 5px 30px;
+    }
+
+    /* Homepage: Intro Row Spacing */
+    .homepage-intro {
+        padding: 30px 0 45px 0;
+    }
+
+    /* Homepage: Service Icons */
+    .service-icons {
+        padding-top: 0px;
+    }
+
+    /* Homepage: Service Icons */
+    .service-icons .vc_column_container {
+        margin-top: 35px;
+    }
+
+    /* Homepage: Reviews */
+    .homepage-reviews {
+        padding-top: 35px;
+    }
+
+    /* Homepage: Reviews Width */
+    .review-tabs {
+        width: 100%;
+    }
+
+    /* Homepage: Reviews Naviation Bullets */
+    .wpb-js-composer .vc_tta-tabs.vc_tta-has-pagination.review-tabs .vc_pagination {
+        margin: 0px;
+    }
+
+    /* Homepage: Reviews Naviation Bullets */
+    .wpb-js-composer .vc_tta-tabs.vc_tta-has-pagination.review-tabs:not(.vc_tta-tabs-position-bottom) {
+        padding-bottom: 35px;
+    }
+
+    /* Homepage: Events Section Padding */
+    .homepage-events {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+
+    /* Homepage: Rooms Spacing */
+    .homepage-rooms {
+        padding-top: 35px;
+    }
+
+    /* Accomodation: Title and Description Center */
+    .portfolio-title-holder .pt-column.pt-column-title {
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 40px;
+    }
+
+    /* Dining: Welcome Spacing */
+    .restaurant {
+        padding: 0;
+        padding-top: 25px;
+    }
+
+    /* Dining: Second Row Spacing */
+    .restaurant-row-2 {
+        padding: 0;
+    }
+
+    /* Dining: Menu Spacing */
+    .restaurant-menu {
+        padding-top: 15px;
+    }
+
+    /* Dining: Menu Tabs Styling */
+    .restaurant-menu .vc_tta-panel-heading h4 {
+        border-bottom: 1px dashed rgba(0,0,0,.1);
+        font-weight: 500;
+    }
+
+    /* Dining: Tabs Side Spacing */
+    .wpb-js-composer .vc_tta.vc_general.restaurant-menu .vc_tta-panel-title>a {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    /* Spa: Massage Menu Padding and Shadow */
+    .spa-menu .vc_tta-panel-body {
+        padding: 25px 20px !important;
+        -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, .15);
+        box-shadow: 0 5px 40px rgba(0, 0, 0, .15);
+    }
+
+    /* Spa: Tabs Side Spacing */
+    .wpb-js-composer .vc_tta.vc_general.restaurant-menu.spa-menu .vc_tta-panel-title>a {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* Spa: Menu Tabs Styling */
+    .spa-menu .vc_tta-panel-heading h4 {
+        border-bottom: none;
+    }
+
+    /* Spa: Menu Tabs Styling */
+    .spa-menu-row {
+        padding: 15px 0;
+    }
+
+    /* Spa: Service Padding */
+    .spa-services {
+        padding: 0px;
+    }
+
+    /* Spa: Title Divider Width */
+    .spa-divider img {
+        width: 60%;
+    }
+
+    /* Spa: Types of Massage Background */
+    .massage-row {
+        padding: 35px 0;
+    }
+
+    /* Spa: Types of Massage */
+    .types-of-massage {
+        padding-top: 0px;
+    }
+
+    /* Events: Single Title Margin Bottom */
+    .single-post .post .entry-header {
+        margin-bottom: 15px;
+    }
+
+    /* Events: Single Post Image Bottom Margin */
+    .single-post .post-image {
+        margin-bottom: 25px;
+    }
+
+    /* Events: Single Post Tags Bottom Margin */
+    .post-meta-only {
+        margin-bottom: 25px;
+    }
+
+    /* Events: Single Post Date and Category Margin Bottom */
+    .single-post .post .post-meta-only .post-meta {
+        margin-bottom: 5px;
+    }
+
+    /* Events: Single Image Caption */
+    .post-formatting .wp-caption .wp-caption-text {
+        background: #EEE;
+    }
+
+    /* Dining: Menu Tabs Top Spacing */
+    .wpb-js-composer .vc_tta.restaurant-menu .vc_tta-panel-body {
+        padding-top: 0px !important;
+    }
+
+    /* Contact: Address Spacing */
+    .contact-address .vc_column-inner {
+        margin-top: 0;
+        margin-right: 0;
+        padding: 25px 15px 0 15px;
+    }
+
+    /* Contact: Small Title */
+    .wpb_wrapper .lab-google-map.contact-page {
+        margin-bottom: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+
+    /* Contact: Map Full Width */
+    .vc_col-sm-8 .vc_column-inner {
+        padding: 0px;
+    }
+
+    /* Contact: Button Full Width */
+    .contact-form .button,
+    .comment-form .button {
+        width: 100%;
+    }
+
+    /* Contact: Adress Small Box Spacing */
+    .contact-address-small-box {
+        padding-top: 0px;
+        padding-bottom: 35px;
+    }
+
+    /* Contact: Adress Small Box Spacing */
+    .contact-address-small-box .post-formatting {
+        margin-bottom: 0px;
+    }
+
+    /* Contact: Address Row */
+    .contact-address-row {
+        padding-top: 15px;
+    }
+
+    /* Footer: Widget Bottom Margin */
+    .widget-area.widgets--columned-layout.widgets--columns-5>.widget {
+        margin-bottom: 35px;
+    }
+
+    /* Footer: Widget Padding */
+    .site-footer .footer-widgets {
+        margin: 0px;
+    }
+
+    /* Footer: 2 Widgets per Row */
+    .widget-area.widgets--columned-layout.widgets--columns-5>.widget {
+        width: 50%;
+    }
+
+    /* Footer: Awards Show Inline */
+    .footer-awards li {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    /* Footer: Awards Width */
+    .footer-awards li img {
+        width: 42px;
+    }
+
+    /* Footer: Copyright Color and Letter Spacing */
+    .site-footer.site-footer-inverted .footer-bottom-content .copyrights p {
+        letter-spacing: 1px;
+    }
+
+    /* Footer: Bottom Footer */
+    .site-footer .footer-bottom-content {
+        padding-top: 0px;
+    }
+}
+
+/* SM: Mobile and tablet devices */
+@media screen and (min-width: 768px) {
+
+    /* Spa: Massage Menu Padding and Shadow */
+    .spa-menu .vc_tta-panel-body {
+        padding: 10px 15px !important;
+    }
+
+    /* Homepage: Reviews */
+    .review-tabs {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Accomodation: Title and Description Center */
+    .portfolio-title-holder .pt-column.pt-column-title {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* General: Page Heading Width */
+    .page-heading--title-section {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* MD: Tablet and desktop devices */
+@media screen and (min-width: 992px) {
+
+    /* Homepage: Reviews */
+    .review-tabs {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Accomodation: Title and Description Center */
+    .portfolio-title-holder .pt-column.pt-column-title {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* General: Page Heading Width */
+    .page-heading--title-section {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+/* ===========================================================
+Custom modification only for HOTEL Demo - END
+=========================================================== */
+
+/* ===========================================================
+User CSS modifications
+=========================================================== */
+.example {
+    color: red !important;
+}
