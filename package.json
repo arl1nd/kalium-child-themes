@@ -1,0 +1,28 @@
+{
+  "name": "kalium-child-themes",
+  "version": "1.0.0",
+  "description": "Kalium Child Themes repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arl1nd/kalium-child-themes.git"
+  },
+  "keywords": [
+    "kalium",
+    "wordpress"
+  ],
+  "author": "Laborator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arl1nd/kalium-child-themes/issues"
+  },
+  "homepage": "https://github.com/arl1nd/kalium-child-themes#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-compress": "^1.6.0"
+  }
+}
