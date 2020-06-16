@@ -69,8 +69,13 @@ Custom modification only for WEDDING Demo - START
 }
 
 /* Header: Hide Logo */
-.logo-column {
+.header-block--logo {
     display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
+}
+
+/* Header: Center Standard header menu */
+.header-block--column.header-block--content-right.header-block--align-right {
+    justify-content: center;
 }
 
 /* Header: Mobile Menu */
