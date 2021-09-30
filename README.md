@@ -6,6 +6,6 @@ Note: In order to install any of child themes of this repository you must have K
 
 <br>
 
-Purchase theme: [www.kaliumtheme.com](https://www.kaliumtheme.com/)
+Purchase theme: [www.kaliumtheme.com](https://kaliumtheme.com/)
 
 Developed by [Laborator](https://laborator.co/)
