@@ -1,9 +1,9 @@
 /*
 Theme Name: Kalium - Blogging Theme
-Theme URI: https://kaliumtheme.com/
+Theme URI: https://kaliumtheme.com
 Author: Laborator
-Author URI: https://laborator.co/
-Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Author URI: https://laborator.co
+Description: Start creating that amazing website that you have always wanted, only with Kalium &mdash; Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
 Version: 1.0
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -14,62 +14,76 @@ Text Domain: kalium
 Custom modification only for BLOGGING Demo - START
 =========================================================== */
 .gmnoprint {
-    display: none;
+	display: none;
 }
 
 /* Blog: Set post background to white */
 .blog-posts .post-item.template-standard .post-details {
-    background: #FFF;
-    padding: 30px 40px;
-    text-align: center;
+	background: #fff;
+	padding: 30px 40px;
+	text-align: center;
 }
 
 /* Blog: Change search form color */
-.widget.widget_product_search .search-bar input[name="s"], .widget.widget_search .search-bar input[name="s"] {
-    background: #FFF;
+.widget.widget_product_search .search-bar input[name="s"],
+.widget.widget_search .search-bar input[name="s"] {
+	background: #fff;
 }
 
 /* Blog: Social Networks Color */
-.widget.widget_text .textwidget .social-networks li a {
-    background: #FFF;
-    margin-right: 4px;
+.blog--has-sidebar .widget.widget_text .textwidget .social-networks li a {
+	margin-right: 4.5px;
+	margin-left: 4.5px;
+}
+
+/* Sidebar: Custom HTML element */
+.blog--has-sidebar .widget_custom_html a:after {
+	background-color: transparent !important;
+}
+
+/* Blog: Sidebar Color */
+.widget-area--skin-background-fill .widget {
+	background-color: #fff;
 }
 
 /* Blog: Show Date Inline */
 .blog-posts .post-item .post-details .post-meta {
-    display: inline-block;
+	display: inline-block;
+	padding-left: 5px;
+	margin-right: 5px;
 }
 
 /* Blog: Color Sidebar Links */
 .blog-archive--widgets .widget ul li a {
-    color: #333;
+	color: #333;
 }
 
 /* Blog: Comments Background */
 .single-post .post-comments {
-    background: #FFF;
+	background: #fff;
 }
 
 /* Blog: Comments Background Caret */
 .single-post .post-comments:before {
-    border-color: #F5F5F5 transparent transparent transparent;
+	border-color: #f5f5f5 transparent transparent transparent;
 }
 
 /* Blog: Comments Reply Background */
 .single-post .post-comments--list .comment-respond {
-    background: #f5f5f5;
+	background: #f5f5f5;
 }
 
 /* Contact: Form borders */
 .contact_form textarea {
-    background-image: linear-gradient(#CCC 1px, transparent 1px);
-    border-color: #ccc;
+	background-image: linear-gradient(#ccc 1px, transparent 1px);
+	border-color: #ccc;
 }
 
 /* Contact: Form borders */
 .contact_form input {
-    border-color: #ccc;
+	border-color: #ccc;
 }
+
 /* ===========================================================
 Custom modification only for BLOGGING Demo - END
 =========================================================== */
@@ -78,5 +92,5 @@ Custom modification only for BLOGGING Demo - END
 User CSS modifications
 =========================================================== */
 .example {
-    color: red !important;
+	color: red !important;
 }

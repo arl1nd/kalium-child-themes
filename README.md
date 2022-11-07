@@ -8,4 +8,4 @@ Note: In order to install any of child themes of this repository you must have K
 
 Purchase theme: [www.kaliumtheme.com](https://kaliumtheme.com/)
 
-Developed by [Laborator](https://laborator.co/)
+Developed by [Laborator](https://laborator.co)
