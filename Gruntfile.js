@@ -18,7 +18,7 @@ module.exports = function ( grunt ) {
 			'law',
 			'main',
 			'medical',
-			'photgraphy',
+			'photography',
 			'restaurant',
 			'shop',
 			'travel',

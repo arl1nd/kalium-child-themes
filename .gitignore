@@ -2,3 +2,4 @@ node_modules
 */custom-skin.css
 package-lock.json
 .idea
+*.zip
