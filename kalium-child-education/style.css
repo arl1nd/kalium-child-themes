@@ -1,9 +1,9 @@
 /*
 Theme Name: Kalium - Education Theme
-Theme URI: https://kaliumtheme.com/
+Theme URI: https://kaliumtheme.com
 Author: Laborator
-Author URI: https://laborator.co/
-Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Author URI: https://laborator.co
+Description: Start creating that amazing website that you have always wanted, only with Kalium &mdash; Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
 Version: 1.0
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -15,327 +15,365 @@ Custom modification only for EDUCATION Demo - START
 =========================================================== */
 
 /* Homepage - Blog Posts Date */
-.wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-date {
-    margin-bottom: 10px;
-    display: inline-block;
-    background: #bf2e2e;
-    color: #FFF;
-    height:20px;
-    line-height: 20px;
-    padding: 0px 5px;
-    position: absolute;
-    left: 29px;
-    top: -10px;
+.wpb_wrapper
+	.lab-blog-posts
+	.blog-post-entry
+	.blog-post-content-container
+	.blog-post-date {
+	margin-bottom: 10px;
+	display: inline-block;
+	background: #bf2e2e;
+	color: #fff;
+	height: 20px;
+	line-height: 20px;
+	padding: 0px 5px;
+	position: absolute;
+	left: 29px;
+	top: -10px;
 }
 
 /* Homepage -  Blog Post Date Post Relative Position */
 .wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container {
-    position: relative;
+	position: relative;
 }
 
 /* Homepage -  Blog Post Animation Transition Timing */
 .wpb_wrapper .lab-blog-posts .blog-post-entry {
-    transition: all 200ms;
+	transition: all 200ms;
 }
 
 /* Homepage -  Blog Post Shadow Effect */
 .wpb_wrapper .lab-blog-posts .blog-post-entry:hover {
-    box-shadow: 0px 7px 25px rgba(0,0,0,0.05), 0px 1px 2px rgba(0,0,0,0.02);
+	box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.05),
+		0px 1px 2px rgba(0, 0, 0, 0.02);
 }
 
 /* Homepage: Join Now  */
 .join-now {
-    padding: 35px 0px;
+	padding: 35px 0px;
 }
 /* Homepage: Join Now Align Center  */
 .align-center {
-    text-align: center;
+	text-align: center;
 }
 
 /* Homepage: Join Now Divider */
 .custom-divider {
-    width: 5%;
+	width: 5%;
 }
 
 /* Homepage -  Schools and Colleges */
 .schools-colleges {
-    margin: 0px;
+	margin: 0px;
 }
 
 /* Homepage -  Schools and Colleges - Remove Margin and Padding From Inner Rows */
-.schools-colleges .vc_column_container>.vc_column-inner {
-    padding:0px !important;
+.schools-colleges .vc_column_container > .vc_column-inner {
+	padding: 0px !important;
 }
 
 /* Homepage -  Schools and Colleges Image */
 .schools-colleges-image {
-    width: 85%;
-    margin: 0 auto;
+	width: 85%;
+	margin: 0 auto;
 }
 
 /* Homepage - Schools and Colleges Remove Padding */
-.lab-vc-container .schools-colleges  .vc_column_container {
-    padding:0px !important;
+.lab-vc-container .schools-colleges .vc_column_container {
+	padding: 0px !important;
 }
-
 
 /* Homepage - Schools and Colleges Accordion Toggle Size */
 .vc_toggle_size_md .vc_toggle_icon {
-    height: 18px;
-    width: 18px;
+	height: 18px;
+	width: 18px;
 }
 
 /* Homepage - Facts in Numbers Number */
-.facts-in-numbers .wpb_wrapper .section-title>h2 {
-    text-align: center;
-    color: #FFF;
+.facts-in-numbers .wpb_wrapper .section-title > h2 {
+	text-align: center;
+	color: #fff;
 }
 
 /* Homepage - Facts in Numbers Title */
-.facts-in-numbers .wpb_wrapper .section-title>p {
-    text-align: center;
-    color: rgba(255,255,255,0.75);
-    text-shadow: 0px 1px 35px rgba(0,0,0,0.25);
+.facts-in-numbers .wpb_wrapper .section-title > p {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.75);
+	text-shadow: 0px 1px 35px rgba(0, 0, 0, 0.25);
 }
 
 /* Blog: Posts Spacing */
 body.blog .blog-posts {
-    margin-top: 35px;
+	margin-top: 35px;
 }
 
 /* Blog: Comments Background Color */
 .single-post .post-comments {
-    background: #f3f1ef;
+	background: #f3f1ef;
 }
 
 /* Blog: Sidebar Search */
-.blog-archive--widgets .widget.widget_product_search .search-bar input[name="s"],
+.blog-archive--widgets
+	.widget.widget_product_search
+	.search-bar
+	input[name="s"],
 .blog-archive--widgets .widget.widget_search .search-bar input[name="s"] {
-    background: #f3f1ef !important;
+	background: #f3f1ef !important;
 }
 
 /* Blog: Sidebar Styling */
 .blog-archive--widgets {
-    position: relative;
-    background: #FFF;
-    box-shadow: 0px 2px 15px rgba(0,0,0,0.07);
-    padding: 40px;
-    border: 1px solid #EEE;
-    margin-top: -50px !important;
-    margin-bottom: 40px;
-    z-index: 1;
+	position: relative;
+	background: #fff;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.07);
+	padding: 40px;
+	border: 1px solid #eee;
+	margin-top: -50px !important;
+	margin-bottom: 40px;
+	z-index: 1;
 }
 
 /* Blog: Sidebar List */
 .blog-archive--widgets .widget ul li {
-    border-bottom: 1px solid #e4e4e4;
-    padding: 15px 0px;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 15px 0px;
 }
 
 /* Blog: Sidebar List Color */
 .blog-archive--widgets .widget ul li a {
-    color: #333;
+	color: #333;
 }
 
 /* Blog: Post */
 .blog-posts .post-item .post-details {
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 50px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
 }
 
 /* Blog: Post Title Line Height */
 .blog-posts .post-item .post-details h3.post-title {
-    line-height: 30px;
+	line-height: 30px;
 }
 
 .blog-posts .post-item .post-details .post-title a:after {
-    display: none;
+	display: none;
 }
 
 /* Blog: Post Font Size */
 .blog-posts .post-item .post-details p {
-    line-height: 20px;
+	line-height: 20px;
 }
 
 /* Blog: Post Date */
 .blog-posts .post-item .post-details .post-meta.date {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 /* Blog: Darken Images */
 .blog-post-image .image-placeholder:after {
-    background: rgba(0,0,0,0.1);
-    content: "";
-    display: block;
-    width:100%;
-    height: 100%;
-    position:absolute;
-    top: 0;
+	background: rgba(0, 0, 0, 0.1);
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
 }
 
 /* Homepage - Blog Posts Hide Post Description */
 .blog-post-excerpt {
-    display: none;
+	display: none;
 }
 
 /* Team Member */
 .team-holder .member .hover-state {
-    background-color: transparent !important;
-    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.8) 100%);
-    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.8) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 80%,rgba(0,0,0,0.9) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
-    opacity: 1;
-    -webkit-opacity: 1;
-    -moz-opacity: 1;
-    filter: alpha(opacity=100);
-    visibility: visible;
+	background-color: transparent !important;
+	background: -moz-linear-gradient(
+		top,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.5) 50%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.5) 50%,
+		rgba(0, 0, 0, 0.8) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0.5) 80%,
+		rgba(0, 0, 0, 0.9) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+	opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=100);
+	visibility: visible;
 }
 
 /* Team Members: Align Bottom */
 .team-holder .member .hover-state .member-details {
-    bottom: 30px;
+	bottom: 30px;
 }
 
 /* Team Members: Member Name */
 .team-holder .member .hover-state .member-details h2 {
-    margin: 0;
-    border-bottom: 2px solid #BF2E2E;
-    display: inline-block;
-    padding-bottom: 5px;
+	margin: 0;
+	border-bottom: 2px solid #bf2e2e;
+	display: inline-block;
+	padding-bottom: 5px;
 }
 
 /* About University - Facts */
 .text-block {
-    height: 277px;
-    margin-bottom: 0px;
-    padding: 50px;
+	height: 277px;
+	margin-bottom: 0px;
+	padding: 50px;
 }
 
 /* About University - Facts - Black and White Image */
 .bw-image.wpb_single_image img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
 }
 
 /* About University - Facts - Black and White Image on Hover */
 .bw-image.wpb_single_image img:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
 }
 
 /* Courses - Center Text */
 .portfolio-holder .item-box .info {
-    text-align: center;
+	text-align: center;
 }
 
 /* Courses - Title Border and Margin */
 .portfolio-holder .item-box .info h3 {
-    display: inline-block;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eee;
+	display: inline-block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #eee;
 }
 
 /* Courses - Title Color */
 .portfolio-holder .item-box .info h3 a {
-    color: #333;
+	color: #333;
 }
 
 /* Courses - Darken Images */
 .portfolio-holder .item-box .photo .image-placeholder:after {
-    background: rgba(0,0,0,0.1);
-    content: " ";
-    display: block;
-    width:100%;
-    height: 100%;
-    position:absolute;
-    top: 0;
+	background: rgba(0, 0, 0, 0.1);
+	content: " ";
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
 }
 
 /* Courses - Padding Top */
 .portfolio-title-holder .pt-column {
-    padding-top: 35px;
+	padding-top: 35px;
 }
 
 /* Courses - Icon */
 .course-icon {
-    display: inline-block;
-    float: left;
-    margin-right: 35px;
+	display: inline-block;
+	float: left;
+	margin-right: 35px;
 }
 
 /* Tutors: Position Image on Left */
 .portfolio-vc-type-container .team-holder .member .image-placeholder,
-.portfolio-vc-type-container .team-holder .member .thumb>a {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: none;
+.portfolio-vc-type-container .team-holder .member .thumb > a {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: none;
 }
 
 /* Tutors: Tutor */
 .portfolio-vc-type-container .team-holder .member .hover-state {
-    position: relative;
-    padding: 0px;
-    background: transparent;
+	position: relative;
+	padding: 0px;
+	background: transparent;
 }
 
 /* Tutors: Fix Tutor Name */
-.portfolio-vc-type-container .team-holder .member .hover-state .member-details h2 {
-    border: none;
-    padding: 0px;
+.portfolio-vc-type-container
+	.team-holder
+	.member
+	.hover-state
+	.member-details
+	h2 {
+	border: none;
+	padding: 0px;
 }
 
 /* Tutors: Tutor Name */
-.portfolio-vc-type-container .team-holder .member .hover-state .member-details h2 a {
-    color: inherit;
+.portfolio-vc-type-container
+	.team-holder
+	.member
+	.hover-state
+	.member-details
+	h2
+	a {
+	color: inherit;
 }
 
 /* Tutors: Tutor Position */
-.portfolio-vc-type-container .team-holder .member .hover-state .member-details .job-title {
-    color: #666;
+.portfolio-vc-type-container
+	.team-holder
+	.member
+	.hover-state
+	.member-details
+	.job-title {
+	color: #666;
 }
 
 /* Tutors: Tutor Image Radius */
-.portfolio-vc-type-container .team-holder .member .image-placeholder img{
-    border-radius: 10%;
-    width: 50px;
-    height: 50px;
+.portfolio-vc-type-container .team-holder .member .image-placeholder img {
+	border-radius: 10%;
+	width: 50px;
+	height: 50px;
 }
 
 /* Tutors: Tutor Name and Position */
 .portfolio-vc-type-container .team-holder .member .hover-state .member-details {
-    position: relative;
-    color: #333;
-    bottom: 0px;
-    margin-left: 70px;
-    min-height: 50px;
-    margin-bottom: 20px
+	position: relative;
+	color: #333;
+	bottom: 0px;
+	margin-left: 70px;
+	min-height: 50px;
+	margin-bottom: 20px;
 }
 
 /* Contact: Input Border Bottom */
 .contact-form input,
 .contact-form textarea,
 .comment-form input,
-.comment-form textarea  {
-    border-bottom-color: #e4e4e4;
-    padding-bottom:10px;
+.comment-form textarea {
+	border-bottom-color: #e4e4e4;
+	padding-bottom: 10px;
 }
 
 /* Contact: Textarea Lines */
 .contact-form textarea,
 .comment-form textarea {
-    background-image: linear-gradient(#e4e4e4 1px, transparent 1px);
-    height: auto;
+	background-image: linear-gradient(#e4e4e4 1px, transparent 1px);
+	height: auto;
 }
 
 /* Contact: Input Border Bottom */
@@ -343,196 +381,203 @@ body.blog .blog-posts {
 .comment-form .form-group label,
 .labeled-input-row label,
 .labeled-textarea-row label {
-    border-bottom-color: #e4e4e4;
+	border-bottom-color: #e4e4e4;
 }
 
 /* Contact: Input Border Bottom */
 .contact-form .form-group,
 .comment-form .form-group {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 /* Contact: Full Columned Inputs */
 .contact-form .row .col-sm-6 {
-    width: 100%;
+	width: 100%;
 }
 
 /* Contact: Color and Size for Label  */
 .wpb_wrapper .lab-contact-form .form-group label {
-    color: #514a47;
+	color: #514a47;
 }
 
 /* Contact: Send Button on Left */
 .contact-form .send {
-    float: left;
-    background: #9e9997 !important;
+	float: left;
+	background: #9e9997 !important;
 }
 
 /* Footer Margin */
 .main-footer .big-footer {
-    margin-top: 50px;
-    margin-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 /* Footer Background */
 .main-footer.main-footer {
-    background: #2b2726  !important;
+	background: #2b2726 !important;
 }
 
 /* Footer - Title Color */
 .main-footer .footer-widgets .widget h1,
 .main-footer .footer-widgets .widget h2,
 .main-footer .footer-widgets .widget h3 {
-    color: #FFF !important;
-}
-
-.main-footer .footer-widgets .widget ul li {
-    padding: 0px;
+	color: #fff !important;
 }
 
 /* Footer - Link Color */
 .main-footer .footer-widgets .widget-area .widget li a {
-    color: #898989;
+	color: #bbbbbb;
+}
+
+.site-footer .footer-bottom-content a,
+.site-footer .footer-widgets .widget .textwidget {
+	color: #bbbbbb;
 }
 
 /* Footer - Link Color on Hover */
 footer.main-footer .footer-widgets .widget-area .widget li a:hover,
-.mobile-menu-wrapper .mobile-menu-container .cart-icon-link-mobile-container a:hover {
-    color: #FFF;
+.mobile-menu-wrapper
+	.mobile-menu-container
+	.cart-icon-link-mobile-container
+	a:hover {
+	color: #fff;
 }
 
 /* Footer - List Link Color  */
 footer.main-footer .big-footer .section ul li a {
-    color: #514a47 !important;
+	color: #514a47 !important;
 }
 
 /* Footer - List Link Color on Hover */
 footer.main-footer .big-footer .section ul li a:hover {
-    color: #FFF !important;
+	color: #fff !important;
 }
 
 /* Footer Bottom Background */
 .footer-bottom {
-    background: #272323 !important;
+	background: #272323 !important;
 }
 
 /* Footer - Bottom Remove Border */
 .main-footer hr {
-    border-color: transparent;
+	border-color: transparent;
 }
 
 /* Footer - Bottom Padding */
 .main-footer .footer-bottom-content {
-    padding-left: 20px;
-    padding-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /* Footer - Bottom Copyright Color */
 .main-footer .footer-bottom-content a,
 .main-footer .footer-bottom-content p {
-    color: #FFF;
+	color: #fff;
 }
 
 /* Footer Bottom Hover Link Colour */
 .site-footer .footer-bottom a:hover {
-    color: #fff;
+	color: #fff;
 }
 
 /* Footer - Bottom Social Networks Background */
 .social-networks.rounded li a {
-    background-color: #2b2726 !important;
+	background-color: #2b2726 !important;
 }
 
 /* Footer - Bottom Social Networks Color */
 .social-networks.rounded li a i {
-    color: #f6f5f3 !important;
+	color: #f6f5f3 !important;
 }
 
 /* Footer - Bottom Social Networks Color on Hover */
 .social-networks.rounded li a:hover {
-    background-color: #3a3433 !important;
+	background-color: #3a3433 !important;
 }
 
 .tp-tabs.tp-span-wrapper.inner.hebe.nav-pos-hor-right.nav-pos-ver-center.nav-dir-vertical {
-    background: transparent !important;
+	background: transparent !important;
 }
 
 /* CSS Applies for: Desktops and Tablets */
-@media (min-width:801px) {
-    /* Title Margin Top */
-    .wpb_wrapper .section-title>h2 {
-        margin-top: 40px;
-    }
+@media (min-width: 801px) {
+	/* Title Margin Top */
+	.wpb_wrapper .section-title > h2 {
+		margin-top: 40px;
+	}
 
-    /* Footer: Widgets Width */
-    .footer-widgets  .widget-area.widgets--columned-layout.widgets--columns-5>.widget {
-        width: 18.75%;
-        margin-bottom: 10px;
-    }
+	/* Footer: Widgets Width */
+	.footer-widgets
+		.widget-area.widgets--columned-layout.widgets--columns-5
+		> .widget {
+		width: 18.75%;
+		margin-bottom: 10px;
+	}
 
-    /* Footer Widgets: If there are fiwe columns, first two have the text align to the right */
-    .footer--widgets.widgets--columns-5 .widget_nav_menu:nth-child(-n+2) {
-        text-align: right;
-    }
+	/* Footer Widgets: If there are fiwe columns, first two have the text align to the right */
+	.footer--widgets.widgets--columns-5 .widget_nav_menu:nth-child(-n + 2) {
+		text-align: right;
+	}
 
-    /* Footer Widgets: If there are three columns, first one have text align to the right */
-    .footer--widgets.widgets--columns-3 .widget_nav_menu:first-child {
-        text-align: right;
-    }
+	/* Footer Widgets: If there are three columns, first one have text align to the right */
+	.footer--widgets.widgets--columns-3 .widget_nav_menu:first-child {
+		text-align: right;
+	}
 
-    /* Footer: Widgets Padding */
-    .widget.widget_nav_menu {
-        padding-top: 85px;
-    }
+	/* Footer: Widgets Padding */
+	.widget.widget_nav_menu {
+		padding-top: 85px;
+	}
 
-    /* Footer: Middle Widget Width */
-    .footer-widgets  .widget-area.widgets--columned-layout.widgets--columns-5>.widget:nth-child(3) {
-        width: 25%;
-    }
+	/* Footer: Middle Widget Width */
+	.footer-widgets
+		.widget-area.widgets--columned-layout.widgets--columns-5
+		> .widget:nth-child(3) {
+		width: 25%;
+	}
 
-    /* Footer: Middle Widget Text Centered */
-    .footer-widgets .middle-widget {
-        text-align: center;
-    }
+	/* Footer: Middle Widget Text Centered */
+	.footer-widgets .middle-widget {
+		text-align: center;
+	}
 
-    /* Footer: Middle Widget Text Centered */
-    .footer-widgets .widget p {
-        color: #898989;
-    }
+	/* Footer: Middle Widget Text Centered */
+	.footer-widgets .widget p {
+		color: #898989;
+	}
 
+	/* Footer: Inner Shadow */
+	.has-fixed-footer .wrapper {
+		box-shadow: rgba(0, 0, 0, 0.5) 0px 70px 100px -30px;
+	}
 
-    /* Footer: Inner Shadow */
-    .has-fixed-footer .wrapper {
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 70px 100px -30px;
-    }
-
-    /* Homepage - Join Now Padding */
-    .join-now {
-        padding: 110px 0px !important;
-    }
+	/* Homepage - Join Now Padding */
+	.join-now {
+		padding: 110px 0px !important;
+	}
 }
 
 /* CSS Applies for: Mobile Devices - All  */
 @media screen and (max-width: 767px) {
-    /* Homepage - Blog Posts Spacing */
-    .blog-posts .post-item .post-details {
-        margin: 20px 0 0 0;
-        padding: 0px;
-    }
+	/* Homepage - Blog Posts Spacing */
+	.blog-posts .post-item .post-details {
+		margin: 20px 0 0 0;
+		padding: 0px;
+	}
 
-    /* Homepage - Blog Posts Margin Bottom */
-    .blog-holder .box-holder {
-        margin-bottom: 35px;
-    }
+	/* Homepage - Blog Posts Margin Bottom */
+	.blog-holder .box-holder {
+		margin-bottom: 35px;
+	}
 }
 
 /* CSS Applies for: Mobile Devices - Portrait */
-@media (max-width:480px) {
-    /* Footer: Widgets Text Centered */
-    .footer-widgets .widget {
-        text-align: center;
-        margin-bottom: 35px;
-    }
+@media (max-width: 480px) {
+	/* Footer: Widgets Text Centered */
+	.footer-widgets .widget {
+		text-align: center;
+		margin-bottom: 35px;
+	}
 }
 /* ===========================================================
 Custom modification only for EDUCATION Demo - END
@@ -542,5 +587,5 @@ Custom modification only for EDUCATION Demo - END
 User CSS modifications
 =========================================================== */
 .example {
-    color: red !important;
+	color: red !important;
 }

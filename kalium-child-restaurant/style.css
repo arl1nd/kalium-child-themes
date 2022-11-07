@@ -1,9 +1,9 @@
 /*
 Theme Name: Kalium - Restaurant Theme
-Theme URI: https://kaliumtheme.com/
+Theme URI: https://kaliumtheme.com
 Author: Laborator
-Author URI: https://laborator.co/
-Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Author URI: https://laborator.co
+Description: Start creating that amazing website that you have always wanted, only with Kalium &mdash; Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
 Version: 1.0
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -15,24 +15,25 @@ Custom modification only for RESTAURANT Demo - START
 =========================================================== */
 
 /* General: Line Height */
-body, p {
-    line-height: 1.7;
+body,
+p {
+	line-height: 1.7;
 }
 
 /* General: Title Divider */
 .title-divider {
-    width: 80px;
-    height: 18px;
-    margin: 50px 0px;
-    text-align: center;
+	width: 80px;
+	height: 18px;
+	margin: 50px 0px;
+	text-align: center;
 }
 
 /* General: Title Divider Center */
-.title-divider.centered  {
-    width: 80px;
-    height: 18px;
-    margin-left:  auto;
-    margin-right:  auto;
+.title-divider.centered {
+	width: 80px;
+	height: 18px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* General: Remove Slider Border */
@@ -41,510 +42,529 @@ body, p {
 .rev_slider iframe,
 .rev_slider object,
 .rev_slider video {
-    border: none;
+	border: none;
 }
 
 /* General: Titles */
 .section-title.restaurant-menu,
 .section-title.guestbook {
-    text-align: center;
+	text-align: center;
 }
 
 /* General: Titles */
 .section-title {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 
 /* General: Sub Title Color */
 .section-title p {
-    color: #777;
+	color: #777;
 }
 
 /* Restaurant: Padding top and bottom */
 .restaurant {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 /* Menu: Title */
 .restaurant-menu h4 {
-    letter-spacing: 3px;
-    margin-bottom: 20px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
 }
 
 /* Menu: Meal Tabs Align Center */
 .restaurant-menu ul {
-    text-align: center;
+	text-align: center;
 }
 
 /* Menu: Meal Tabs Hide Underline */
 .restaurant-menu li a:after {
-    display: none !important;
+	display: none !important;
 }
 
 /* Menu: Meal Tabs */
 .restaurant-menu li {
-    border-bottom: 1px solid #EEE !important;
-    padding: 10px !important;
-    margin:0px !important;
+	border-bottom: 1px solid #eee !important;
+	padding: 10px !important;
+	margin: 0px !important;
 }
 
 /* Menu: Meal Tabs Active */
 .restaurant-menu ul li.vc_active {
-    border-bottom-color: #222 !important;
+	border-bottom-color: #222 !important;
 }
 
 /* Menu: Meal Tabs Active Color */
-.restaurant-menu ul li.vc_active a{
-    color: #222 !important;
+.restaurant-menu ul li.vc_active a {
+	color: #222 !important;
 }
 
 /* Menu: Tabs Remove Transition */
 .wpb-js-composer .vc_tta.restaurant-menu .vc_tta-panel-body {
-    transition: none !important;
-    transform: none !important;
+	transition: none !important;
+	transform: none !important;
 }
 
 /* Menu: Food Name */
 .food-list h3 {
-    border-bottom: 1px dotted #CCC;
-    padding-bottom: 10px;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 10px;
 }
 
 /* Menu: Food Price */
 .food-list del {
-    position: absolute;
-    top: 0;
-    right: 0;
-    text-decoration: none;
-    color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+	color: #000;
 }
 
 /* Menu: Ingredients */
 .food-list p {
-    padding-right: 40px;
-    color: #888;
+	padding-right: 40px;
+	color: #888;
 }
 
 /* Menu: Reserve a Table Button */
 .vc_btn3:after {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 /* Menu: Spacing */
 .menu-catalog {
-    padding: 25px 25px 0 25px;
+	padding: 25px 25px 0 25px;
 }
 
 /* Menu: Purchase button */
 @media screen and (min-width: 768px) {
-    /* Purchase Theme Button */
-    .special-menu-button a {
-        -webkit-box-shadow: 0 10px 30px 3px rgba(0,0,0,0.08);
-        box-shadow: 0 10px 30px 3px rgba(0,0,0,0.08);
-        -webkit-border-radius: 40px;
-        -moz-border-radius: 40px;
-        border-radius: 40px;
-        padding: 4px 15px;
-        background: #d09e5b;
-        color: #fff !important;
-        margin-left: -15px;
-    }
+	/* Purchase Theme Button */
+	.special-menu-button a {
+		-webkit-box-shadow: 0 10px 30px 3px rgba(0, 0, 0, 0.08);
+		box-shadow: 0 10px 30px 3px rgba(0, 0, 0, 0.08);
+		-webkit-border-radius: 40px;
+		-moz-border-radius: 40px;
+		border-radius: 40px;
+		padding: 4px 15px;
+		background: #d09e5b;
+		color: #fff !important;
+		margin-left: -15px;
+	}
 
-    .special-menu-button a:after {
-        background-color: transparent !important;
-    }
+	.special-menu-button a:after {
+		background-color: transparent !important;
+	}
 }
 
 /* Blog Post: Adding margin between paragraphs and customising the line height */
 .single-post .post .post-content p {
-    margin: 15px auto;
-    line-height: 24px;
+	margin: 15px auto;
+	line-height: 24px;
 }
 
 /* Blog Post: use "rounded-single-blog-image" to make a rounded image inside blog */
 .rounded-single-blog-image {
-    -webkit-border-radius: 999px;
-    -moz-border-radius: 999px;
-    border-radius: 999px;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
 }
 
 /* Blog: Blog Post Hide Excerpt */
 .blog-post-excerpt {
-    display: none;
+	display: none;
 }
 
 /* Blog: Blog Post */
 .cuisine-blog .lab-blog-posts .blog-post-entry {
-    background: #fff;
-    border: none;
+	background: #fff;
+	border: none;
 }
 
 /* Blog: Blog Post Image */
-.cuisine-blog .lab-blog-posts .blog-post-entry .blog-post-image{
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
+.cuisine-blog .lab-blog-posts .blog-post-entry .blog-post-image {
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
 }
 
 /* Blog: Show More Button Color */
 .cuisine-blog .show-more .reveal-button {
-    border-color: #eee;
-    background-color: #fff;
-    border-width: 1px;
+	border-color: #eee;
+	background-color: #fff;
+	border-width: 1px;
 }
 
 /* Blog: Show More Button Margin */
 .cuisine-blog .show-more {
-    margin-top: 0px;
+	margin-top: 0px;
 }
 
 /* Blog: Comment Area */
 .labeled-textarea-row textarea {
-    background-image: linear-gradient(#EEE 1px, transparent 1px);
+	background-image: linear-gradient(#eee 1px, transparent 1px);
 }
 
 /* Sidebar: Search area */
 .widget.widget_search .search-bar input[name="s"] {
-    border: 1px solid #eee;
+	border: 1px solid #eee;
 }
 
 /* Chef: Title  */
 .our-chef .section-title h2 {
-    color: #FFF;
-    margin: 0px;
+	color: #fff;
+	margin: 0px;
 }
 
 /* Chef: Sub-title */
 .our-chef .section-title p {
-    color: #999;
-    letter-spacing: 4px;
-    position: absolute;
-    top: -35px;
+	color: #999;
+	letter-spacing: 4px;
+	position: absolute;
+	top: -35px;
 }
 
 /* Chef: Signature */
 .signature {
-    width: 150px;
-    opacity: 0.5;
+	width: 150px;
+	opacity: 0.5;
 }
 
 /* Chef: Title Divider */
 .our-chef .title-divider {
-    margin: 40px 0;
+	margin: 40px 0;
 }
 
 /* Guestbook: Awards Row */
 .awards {
-    width: 50%;
-    margin-left: auto !important;
-    margin-right: auto !important;
+	width: 50%;
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
 /* Guestbook: Awards Image Size */
 .awards img {
-    width: 58px;
-    height: auto;
+	width: 58px;
+	height: auto;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget {
-    padding: 0px;
-    border: none;
+	padding: 0px;
+	border: none;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget .cdsROW a:after {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget .cdsROW.wide {
-    margin: 0 auto;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 50px;
-    padding: 5px 20px;
-    height: auto;
+	margin: 0 auto;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 50px;
+	padding: 5px 20px;
+	height: auto;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget .cdsROW.wide .logo {
-    border: none;
+	border: none;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget .cdsLocName {
-    max-width: 145px !important;
+	max-width: 145px !important;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget .cdsRating {
-    padding-left: 12px !important;
+	padding-left: 12px !important;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 .widget-area--skin-bordered.tripadvisor-rating .widget .cdsROW.wide {
-    width: 468px !important;
+	width: 468px !important;
+}
+
+/* Guestbook: Tripadvisor re-styling */
+.widget-area--skin-bordered.tripadvisor-rating
+	.widget
+	.cdsROW.cx_brand_refresh.wide
+	.logo {
+	background: transparent;
 }
 
 /* Guestbook: Tripadvisor re-styling */
 @media screen and (max-width: 768px) {
-    .TA_cdsratingsonlywide {
-        display: none;
-    }
+	.TA_cdsratingsonlywide {
+		display: none;
+	}
 }
 
 /* Reserve: Open Table Widget */
 .open-table-widget {
-    padding: 0px !important;
-    border: none !important;
+	padding: 0px !important;
+	border: none !important;
 }
 
 /* Reserve: Open Table Widget Label */
 .open-table-widget label {
-    display: block;
+	display: block;
 }
 
 /* Reserve: Open Table Widget Input Spacing */
 .open-table-widget input {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 /* Reserve: Open Table Widget Remove Copyright */
 .open-table-widget .powered-by-open-table {
-    display: none;
+	display: none;
 }
 
 /* Reserve: Open Table Widget Reservation Date Input */
 .open-table-widget .otw-reservation-date {
-    width: 100%;
-    padding-left: 20px;
-    background: transparent !important;
+	width: 100%;
+	padding-left: 20px;
+	background: transparent !important;
 }
 
 .otw-date-li.otw-input-wrap input {
-    padding-left: 20px !important;
+	padding-left: 20px !important;
 }
 
 /* Reserve: Open Table Widget Reservation Submit Button */
 .open-table-widget .otw-submit {
-    border: none;
-    background: #d09e5b;
-    padding: 10px 15px;
-    margin-top:20px;
-    color: #FFF;
+	border: none;
+	background: #d09e5b;
+	padding: 10px 15px;
+	margin-top: 20px;
+	color: #fff;
 }
 
 /* Reserve: Open Table Widget Fields */
 .open-table-widget .selectric,
 .open-table-widget .otw-widget-form-wrap input[type="text"] {
-    background: none !important;
-    padding: 10px;
-    height: auto !important;
-    border-color: #EEE;
+	background: none !important;
+	padding: 10px;
+	height: auto !important;
+	border-color: #eee;
 }
 
 /* Reserve: Open Table Widget Field Labels */
 .open-table-widget div.otw-wrapper div.selectric p {
-    height: auto !important;
-    line-height: normal !important;
+	height: auto !important;
+	line-height: normal !important;
 }
 
 /* Reserve: Open Table Widget Button */
 .open-table-widget .selectric .button {
-    background: transparent;
-    height: auto !important;
-    padding: 21px;
+	background: transparent;
+	height: auto !important;
+	padding: 21px;
 }
 
 /* Reserve: Open Table Widget Button Active */
 .open-table-widget .selectric .button:active {
-    box-shadow: none;
+	box-shadow: none;
 }
 
 /* Reserve: Open Table Widget Dropdown */
 .open-table-widget .selectric-items {
-    background: #FFF !important;
+	background: #fff !important;
 }
 
 /* Reserve: Open Table Widget Dropdown Items */
 .selectric-items li:hover,
 .selectric-items li.selected {
-    background: #FAFAFA !important;
+	background: #fafafa !important;
 }
 
 /* Reserve: Open Table Widget Datepicker */
 .open-table-widget-datepicker {
-    box-shadow: none !important;
-    border-color: #222 !important;
-    padding: 10px !important;
+	box-shadow: none !important;
+	border-color: #222 !important;
+	padding: 10px !important;
 }
 
 /* Reserve: Open Table Widget Datepicker */
 .open-table-widget-datepicker.datepicker-top-left:before,
 .open-table-widget-datepicker.datepicker-top-right:before {
-    border-bottom-color: #222 !important;
+	border-bottom-color: #222 !important;
 }
 
 /* Blog: Title Alignment */
 .cuisine-title {
-    text-align: center;
+	text-align: center;
 }
 
 /* Gallery: Blur Settings */
 .vc_grid-item-mini.vc_is-hover .vc_gitem-animate-blurOut .vc_gitem-zone-a,
 .vc_grid-item-mini.vc_is-hover .vc_gitem-animate-blurScaleOut .vc_gitem-zone-a {
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    filter: blur(1px);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
 }
 
 /* Gallery: Scale Settings */
 .vc_gitem-animate-blurScaleOut .vc_gitem-zone-a {
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    -o-transform: scale(1.03);
-    transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	transform: scale(1.03);
 }
 
 /* Footer: Widget Text Align */
 .footer--widgets .widget {
-    text-align: left;
+	text-align: left;
 }
 
 /* Footer: Background Decoration Image */
 footer.site-footer {
-    background: #222 url(https://demo.kaliumtheme.com/restaurant/wp-content/uploads/2017/08/sushivogel.png) no-repeat 118% 140% !important;
-    background-size: 600px auto !important;
+	background: #222
+		url(https://demo.kaliumtheme.com/restaurant/wp-content/uploads/2017/08/sushivogel.png)
+		no-repeat 118% 140% !important;
+	background-size: 600px auto !important;
 }
 
 /* Footer: Social Networks Icons */
 .site-footer .social-networks.rounded li a {
-    width: 35px;
-    height: 35px;
-    background: transparent;
-    margin-right: 0px !important;
+	width: 35px;
+	height: 35px;
+	background: transparent;
+	margin-right: 0px !important;
 }
 
 /* Footer: Social Networks Icon Color */
 .site-footer .social-networks.rounded li a i {
-    color: #FFF !important;
+	color: #fff !important;
 }
 
 /* Footer: Paragraph Color */
-.site-footer .footer-widgets .widget .textwidget, .site-footer .footer-widgets .widget p {
-    color: #888 !important;
+.site-footer .footer-widgets .widget .textwidget,
+.site-footer .footer-widgets .widget p {
+	color: #888 !important;
 }
 
 /* Footer: Widgets Margin */
 .site-footer .footer-widgets {
-    margin-top: 80px;
-    margin-bottom: 70px;
+	margin-top: 80px;
+	margin-bottom: 70px;
 }
 
 /* Footer: Hides the horizontal separator line on the footer */
 .site-footer.site-footer-inverted hr {
-    display: none;
+	display: none;
 }
 
 /* Footer: Working Hours */
 .working-hours li span {
-    color: #FFF;
-    float: right;
-    line-height: 1.7;
+	color: #fff;
+	float: right;
+	line-height: 1.7;
 }
 
 /* Footer: Working Hours Right Alignment */
 .widget.widget_custom_html:nth-child(3) {
-    width: 25% !important;
-    float: right !important;
+	width: 25% !important;
+	float: right !important;
 }
 
 @media (min-width: 768px) {
-    .widget-area.widgets--columned-layout.widgets--columns-3>.widget {
-        float: left;
-        width: 33.33333%;
-    }
+	.widget-area.widgets--columned-layout.widgets--columns-3 > .widget {
+		float: left;
+		width: 33.33333%;
+	}
 }
 
 /* Footer Bottom Link Colour */
 .site-footer .footer-bottom a {
-    color: #fff;
+	color: #fff;
 }
 
 .site-footer .footer-bottom a:hover {
-    color: #fff;
+	color: #fff;
 }
 
 .site-footer .footer-bottom a:hover:after {
-    height: 1px !important;
-    width: 100% !important;
-    background: #DD1F26;
-    content: "";
-    display: block;
+	height: 1px !important;
+	width: 100% !important;
+	background: #dd1f26;
+	content: "";
+	display: block;
+}
+
+/* MD: Tablets */
+@media (min-width: 992px) {
+	/* Homepage: Intro Image */
+	.homepage-image-intro {
+		margin-bottom: 0px;
+	}
 }
 
 /* XS: Mobile devices */
-@media screen and (max-width: 480px){
-    .widget.widget_custom_html:nth-child(3) {
-        width: 100% !important;
-        float: left !important;
-    }
+@media screen and (max-width: 480px) {
+	.widget.widget_custom_html:nth-child(3) {
+		width: 100% !important;
+		float: left !important;
+	}
 
-    .site-footer .footer-widgets {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+	.site-footer .footer-widgets {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
 
-    .show-more {
-        margin: 0px;
-        width: 100%;
-        padding: 0px;
-    }
+	.show-more {
+		margin: 0px;
+		width: 100%;
+		padding: 0px;
+	}
 
-    .show-more .reveal-button {
-        width: 100%;
-    }
+	.show-more .reveal-button {
+		width: 100%;
+	}
 
-    .wpb_wrapper .lab-blog-posts .blog-post-column {
-        margin-bottom: 20px;
-    }
+	.wpb_wrapper .lab-blog-posts .blog-post-column {
+		margin-bottom: 20px;
+	}
 
-    .awards {
-        width: 100%;
-    }
+	.awards {
+		width: 100%;
+	}
 
-    .logos-holder.awards .client-logos-col {
-        width: 20% !important;
-    }
+	.logos-holder.awards .client-logos-col {
+		width: 20% !important;
+	}
 
-    .title-divider {
-        margin: 25px 0;
-    }
+	.title-divider {
+		margin: 25px 0;
+	}
 
-    .menu-catalog {
-        padding: 0px;
-    }
+	.menu-catalog {
+		padding: 0px;
+	}
 
-    .restaurant {
-        padding: 0px;
-    }
+	.restaurant {
+		padding: 0px;
+	}
 
-    .reserve {
-        margin: 0px;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
+	.reserve {
+		margin: 0px;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
 
-    .menu-row .vc_tta-panel-body {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
+	.menu-row .vc_tta-panel-body {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
 
-    .food-list p {
-        padding-right: 0px;
-    }
+	.food-list p {
+		padding-right: 0px;
+	}
 }
 /* ===========================================================
 Custom modification only for RESTAURANT Demo - END
@@ -554,5 +574,5 @@ Custom modification only for RESTAURANT Demo - END
 User CSS modifications
 =========================================================== */
 .example {
-    color: red;
+	color: red;
 }

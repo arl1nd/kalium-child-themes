@@ -1,9 +1,9 @@
 /*
 Theme Name: Kalium - Wedding Theme
-Theme URI: https://kaliumtheme.com/
+Theme URI: https://kaliumtheme.com
 Author: Laborator
-Author URI: https://laborator.co/
-Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Author URI: https://laborator.co
+Description: Start creating that amazing website that you have always wanted, only with Kalium &mdash; Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
 Version: 1.0
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -13,199 +13,239 @@ Text Domain: kalium
 /* ===========================================================
 Custom modification only for WEDDING Demo - START
 =========================================================== */
+
 /* General: Divider */
 .title-divider img {
-    height: auto;
-    width: 200px;
-    margin: 10px;
+	height: auto;
+	width: 200px;
+	margin: 10px;
 }
 
 /* General: Row Vertical Spacing */
 .vertical-padding {
-    padding-top: 60px;
-    padding-bottom: 60px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 /* Header: Center Menu */
 .main-header.menu-type-standard-menu .standard-menu-container {
-    text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    text-transform: uppercase;
-    padding: 15px 0;
-    text-shadow: none;
+	text-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+	text-shadow: none;
 }
 
 /* Header: Menu Buy Button */
-.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul > li.special-menu-button > a,
-.main-header.menu-type-standard-menu .standard-menu-container ul.menu > li.special-menu-button > a {
-    color: #FFF;
-    padding: 5px 8px;
-    line-height: 1;
-    border-radius: 4px;
-    background: #b79f93;
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	div.menu
+	> ul
+	> li.special-menu-button
+	> a,
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	ul.menu
+	> li.special-menu-button
+	> a {
+	color: #fff;
+	padding: 5px 8px;
+	line-height: 1;
+	border-radius: 4px;
+	background: #b79f93;
 }
 
 /* Header: Menu Buy Button on Hover */
-.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul > li.special-menu-button > a:hover,
-.main-header.menu-type-standard-menu .standard-menu-container ul.menu > li.special-menu-button > a:hover {
-    color: #fff;
-    background: #a78d80;
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	div.menu
+	> ul
+	> li.special-menu-button
+	> a:hover,
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	ul.menu
+	> li.special-menu-button
+	> a:hover {
+	color: #fff;
+	background: #a78d80;
 }
 
 /* Header: Menu Buy Button on Hover */
-.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul > li.special-menu-button > a:hover:after,
-.main-header.menu-type-standard-menu .standard-menu-container ul.menu > li.special-menu-button > a:hover:after,
-.main-header.menu-type-standard-menu .standard-menu-container div.menu > ul > li.special-menu-button > a:after,
-.main-header.menu-type-standard-menu .standard-menu-container ul.menu > li.special-menu-button > a:after {
-    display: none;
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	div.menu
+	> ul
+	> li.special-menu-button
+	> a:hover:after,
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	ul.menu
+	> li.special-menu-button
+	> a:hover:after,
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	div.menu
+	> ul
+	> li.special-menu-button
+	> a:after,
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	ul.menu
+	> li.special-menu-button
+	> a:after {
+	display: none;
 }
 
 /* Header: Logo Text Color */
 .header-logo.logo-image,
 .header-logo.logo-image:hover {
-    color: #333;
+	color: #333;
 }
 
 /* Header: Hide Logo */
-.header-block--logo {
-    display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
+.header-block__logo {
+	display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
 }
 
 /* Header: Center Standard header menu */
-.header-block--column.header-block--content-right.header-block--align-right {
-    justify-content: center;
+.header-block__column.header-block--content-right.header-block--align-right {
+	justify-content: center;
 }
 
 /* Header: Mobile Menu */
-.mobile-menu-wrapper.mobile-menu-fullscreen+.mobile-menu-overlay {
-    background: rgba(65,51,39,0.9);
+.mobile-menu-wrapper.mobile-menu-fullscreen + .mobile-menu-overlay {
+	background: rgba(65, 51, 39, 0.9);
 }
 
 /* How it began: Icon Alignment */
 .wpb_wrapper .wpb_text_column img.icon-position {
-    top: 0;
-    vertical-align: middle;
-    margin-bottom: 0px;
+	top: 0;
+	vertical-align: middle;
+	margin-bottom: 0px;
 }
 
 /* How it began: Left Content */
 .timeline-left {
-    text-align: right;
+	text-align: right;
 }
 
 /* How it began: Right Content */
 .timeline-right {
-    text-align: left;
+	text-align: left;
 }
 
 /* How it began: Middle Content */
 .timeline-center {
-    text-align: center;
+	text-align: center;
 }
 
 /* How it began: Conent Spacing */
 .timeline-left .vc_column-inner,
 .timeline-right .vc_column-inner,
-.timeline-center  .vc_column-inner {
-    padding-left: 50px;
-    padding-right: 50px;
+.timeline-center .vc_column-inner {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 /* How it began: Right Content Image Spacing */
 .timeline-right img {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 /* How it began: Left Content Image Spacing */
 .timeline-left img {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 /* Events: Image Spacing */
 .event-image {
-    padding-top: 25px;
+	padding-top: 25px;
 }
 
 /* RSVP: Box Background and Shadow */
 .rsvp-box {
-    -webkit-box-shadow: 0px 10px 40px -15px rgba(0,0,0,.25);
-    box-shadow: 0px 10px 40px -15px rgba(0,0,0,.25);
-    padding: 55px 45px 10px 45px;
-    background: #FFF;
+	-webkit-box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, 0.25);
+	padding: 55px 45px 10px 45px;
+	background: #fff;
 }
 
 /* RSVP: Font Weight */
-.nf-error-msg, .ninja-forms-req-symbol {
-    font-weight: 400;
+.nf-error-msg,
+.ninja-forms-req-symbol {
+	font-weight: 400;
 }
 
 /* RSVP: Border Color */
 .rsvp-form input,
 .rsvp-form select {
-    border-color: #d8d0c6;
-    -webkit-appearance: none;
+	border-color: #d8d0c6;
+	-webkit-appearance: none;
 }
 
 /* RSVP: Radio Buttons and Checkboxes */
-.rsvp-box input[type=checkbox], input[type=radio] {
-    border: 5px solid #ded6ce;
+.rsvp-box input[type="checkbox"],
+input[type="radio"] {
+	border: 5px solid #ded6ce;
 }
 
 /* RSVP: Radio Buttons and Checkboxes Checked */
-input[type=checkbox].nf-checked, input[type=radio].nf-checked {
-    border: 5px solid #413327;
+input[type="checkbox"].nf-checked,
+input[type="radio"].nf-checked {
+	border: 5px solid #413327;
 }
 
 /* RSVP: Button Width */
-.rsvp-form .field-wrap input[type=button] {
-    width: 100%;
+.rsvp-form .field-wrap input[type="button"] {
+	width: 100%;
 }
 
 /* RSVP: Button Width */
 .rsvp-form .nf-form-fields-required {
-    display: none;
+	display: none;
 }
 
 /* RSVP: Response */
 .rsvp-form .nf-response-msg {
-    text-align: center;
-    font-size: 16px;
+	text-align: center;
+	font-size: 16px;
 }
 
 /* RSVP: Food Requirements */
 .food-requirements .list-checkbox-wrap .nf-field-element li,
 .food-requirements .list-radio-wrap .nf-field-element li {
-    float: left !important;
-    margin-right: 25px !important;
+	float: left !important;
+	margin-right: 25px !important;
 }
 
 /* RSVP: Select Box */
 .field-wrap .nf-field-element select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding-left: 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding-left: 15px;
 }
 
 /* Gallery Lightbox: Background Color */
 .home .lg-backdrop {
-    background-color: rgba(255,255,255,.9);
+	background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* Gallery Lightbox: Thumb Background Color */
 .home .lg-outer .lg-thumb-outer {
-    background-color: rgba(255,255,255,0.9);
-    -webkit-box-shadow: 0px -10px 50px rgba(0,0,0,0.1);
-    box-shadow: 0px -10px 50px rgba(0,0,0,0.1);
+	background-color: rgba(255, 255, 255, 0.9);
+	-webkit-box-shadow: 0px -10px 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px -10px 50px rgba(0, 0, 0, 0.1);
 }
 
 /* Gallery Lightbox: Thumb Toggle Background */
 .home .lg-outer .lg-toogle-thumb {
-    -webkit-box-shadow: 0px -10px 25px rgba(0,0,0,0.1);
-    box-shadow: 0px -10px 25px rgba(0,0,0,0.1);
-    background-color: #fff;
+	-webkit-box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px -10px 25px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
 }
 
 /* Gallery Lightbox: Thumb Icon Color on Hover */
@@ -213,235 +253,228 @@ input[type=checkbox].nf-checked, input[type=radio].nf-checked {
 .home .lg-toolbar .lg-icon:hover,
 .home .lg-actions .lg-next:hover,
 .home .lg-actions .lg-prev:hover {
-    color: #000;
+	color: #000;
 }
 
 /* Gallery: Hover Transition */
 .moments-gallery .vc_visible-item {
-    -webkit-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
 }
 
 /* Gallery: Hover Transition */
 .moments-gallery .vc_visible-item:hover {
-    opacity: 0.6;
+	opacity: 0.6;
 }
-
 
 /* Registry: Logo Shadow and Background */
 .logos-holder.no-image-borders .c-logo {
-    -webkit-box-shadow: 0px 10px 40px -15px rgba(0,0,0,.25);
-    box-shadow: 0px 10px 40px -15px rgba(0,0,0,.25);
-    background-color: #fff;
-    margin-bottom: 30px;
+	-webkit-box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+	margin-bottom: 30px;
 }
 
 /* Registry: Logo Transition on Hover */
 .logos-holder.no-image-borders .c-logo {
-    -webkit-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 /* Registry: Logo Transition on Hover */
 .logos-holder.no-image-borders .c-logo:hover {
-    opacity: 0.75;
-    -webkit-box-shadow: 0px 5px 20px -10px rgba(0,0,0,.25);
-    box-shadow: 0px 5px 20px -10px rgba(0,0,0,.25);
+	opacity: 0.75;
+	-webkit-box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.25);
 }
 
 /* Registry: Logo Width on Mobile */
 @media screen and (max-width: 480px) {
-    .logos-holder .client-logos-col {
-        width: 50%!important;
-    }
+	.logos-holder .client-logos-col {
+		width: 50% !important;
+	}
 }
 
 /* Blog: Post Comments Background */
 .single-post .post-comments {
-    background-color: #f9f2eb;
+	background-color: #f9f2eb;
 }
 
 /* Blog: Post Comment Lines */
 .labeled-textarea-row textarea {
-    background-image: linear-gradient(#d8d0c6 1px, transparent 1px);
+	background-image: linear-gradient(#d8d0c6 1px, transparent 1px);
 }
 
 /* Blog: Post Comment Link Color */
 .single-post .post-comments a {
-    color: #413327;
+	color: #413327;
 }
 
 /* Footer: Social Network Background Color */
 .site-footer .social-networks.rounded li a {
-    background-color: #f9f2eb;
+	background-color: #f9f2eb;
 }
 
 /* XS: Mobile devices */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
+	/* General: Row Vertical Spacing */
+	.vertical-padding {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
 
-    /* General: Row Vertical Spacing */
-    .vertical-padding {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
+	/* Header: Spacing */
+	.header-absolute header.main-header {
+		padding: 15px 0 !important;
+	}
 
-    /* Header: Spacing */
-    .header-absolute header.main-header {
-        padding: 15px 0 !important;
-    }
+	/* Header: Menu Trigger Color */
+	.menu-bar.menu-skin-dark .ham:after,
+	.menu-bar.menu-skin-dark .ham:before,
+	.menu-bar.menu-skin-dark .ham {
+		background-color: #413327;
+	}
 
-    /* Header: Menu Trigger Color */
-    .menu-bar.menu-skin-dark .ham:after,
-    .menu-bar.menu-skin-dark .ham:before,
-    .menu-bar.menu-skin-dark .ham {
-        background-color: #413327;
-    }
+	/* Header: Center Menu */
+	.main-header.menu-type-standard-menu .standard-menu-container {
+		text-align: right;
+		-webkit-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+		justify-content: flex-end;
+		text-transform: uppercase;
+		padding: 0;
+		text-shadow: none;
+	}
 
-    /* Header: Center Menu */
-    .main-header.menu-type-standard-menu .standard-menu-container {
-        text-align: right;
-        -webkit-box-pack: flex-end;
-        -ms-flex-pack: flex-end;
-        justify-content: flex-end;
-        text-transform: uppercase;
-        padding: 0;
-        text-shadow: none;
-    }
+	/* Header: Show Logo */
+	.logo-column {
+		display: block; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
+	}
 
-    /* Header: Show Logo */
-    .logo-column {
-        display: block; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
-    }
+	/* Header: Menu Trigger Spacing */
+	.menu-bar {
+		margin: 0px;
+		padding: 0px;
+	}
 
-    /* Header: Menu Trigger Spacing */
-    .menu-bar {
-        margin: 0px;
-        padding: 0px;
-    }
+	/* How it began: Left Content */
+	.timeline-left {
+		text-align: left;
+	}
 
-    /* How it began: Left Content */
-    .timeline-left {
-        text-align: left;
-    }
+	/* How it began: Right Content */
+	.timeline-right {
+		text-align: left;
+	}
 
-    /* How it began: Right Content */
-    .timeline-right {
-        text-align: left;
-    }
+	/* How it began: Middle Content */
+	.timeline-center {
+		text-align: left;
+	}
 
-    /* How it began: Middle Content */
-    .timeline-center {
-        text-align: left;
-    }
+	/* How it began: Image Spacing */
+	.timeline-left img,
+	.timeline-right img,
+	.timeline-center img {
+		margin-left: 0px;
+		float: left;
+	}
 
-    /* How it began: Image Spacing */
-    .timeline-left img,
-    .timeline-right img,
-    .timeline-center img {
-        margin-left: 0px;
-        float: left;
-    }
+	/* How it began: Image Spacing */
+	.timeline-left img,
+	.timeline-center img {
+		margin-right: 10px;
+	}
 
-    /* How it began: Image Spacing */
-    .timeline-left img,
-    .timeline-center img  {
-        margin-right: 10px;
-    }
+	/* How it began: Conent Spacing */
+	.timeline-left .vc_column-inner,
+	.timeline-right .vc_column-inner,
+	.timeline-center .vc_column-inner {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 
-    /* How it began: Conent Spacing */
-    .timeline-left .vc_column-inner,
-    .timeline-right .vc_column-inner,
-    .timeline-center  .vc_column-inner {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+	/* Events: Image Spacing */
+	.event-image {
+		padding-top: 5px;
+	}
 
-    /* Events: Image Spacing */
-    .event-image {
-        padding-top: 5px;
-    }
+	/* RSVP: Box Background and Shadow */
+	.rsvp-box {
+		width: 100%;
+		margin: 0 auto;
+		padding: 35px 25px 0px 25px;
+	}
 
-    /* RSVP: Box Background and Shadow */
-    .rsvp-box {
-        width: 100%;
-        margin: 0 auto;
-        padding: 35px 25px 0px 25px;
-    }
+	/* RSVP: Padding */
+	.rsvp-row {
+		padding: 25px !important;
+	}
 
-    /* RSVP: Padding */
-    .rsvp-row {
-        padding: 25px !important;
-    }
-
-    /* Happy Moments: Image Size */
-    .vc_masonry_media_grid.happy-moments .vc_grid.vc_row .vc_grid-item {
-        width: 25%;
-        float: left;
-    }
-
+	/* Happy Moments: Image Size */
+	.vc_masonry_media_grid.happy-moments .vc_grid.vc_row .vc_grid-item {
+		width: 25%;
+		float: left;
+	}
 }
 
 /* SM: Mobile and tablet devices */
 @media screen and (min-width: 768px) {
+	/* Header: Show Logo */
+	.logo-column {
+		display: block; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
+	}
 
-    /* Header: Show Logo */
-    .logo-column {
-        display: block; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
-    }
-
-
-    /* Header: Center Menu */
-    .main-header.menu-type-standard-menu .standard-menu-container {
-        text-align: right;
-        -webkit-box-pack: flex-end;
-        -ms-flex-pack: flex-end;
-        justify-content: flex-end;
-        text-transform: uppercase;
-        padding: 0;
-        text-shadow: none;
-    }
+	/* Header: Center Menu */
+	.main-header.menu-type-standard-menu .standard-menu-container {
+		text-align: right;
+		-webkit-box-pack: flex-end;
+		-ms-flex-pack: flex-end;
+		justify-content: flex-end;
+		text-transform: uppercase;
+		padding: 0;
+		text-shadow: none;
+	}
 }
 
 /* MD: Tablet and desktop devices */
 @media screen and (min-width: 992px) {
+	/* Header: Show Logo */
+	.logo-column {
+		display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
+	}
 
-    /* Header: Show Logo */
-    .logo-column {
-        display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
-    }
-
-    /* Header: Normalize Menu */
-    .main-header.menu-type-standard-menu .standard-menu-container {
-        text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-transform: uppercase;
-        padding: 15px 0;
-        text-shadow: none;
-    }
+	/* Header: Normalize Menu */
+	.main-header.menu-type-standard-menu .standard-menu-container {
+		text-align: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		text-transform: uppercase;
+		padding: 15px 0;
+		text-shadow: none;
+	}
 }
 
 /* LG: Desktop devices */
 @media screen and (min-width: 1200px) {
+	/* Header: Show Logo */
+	.logo-column {
+		display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
+	}
 
-    /* Header: Show Logo */
-    .logo-column {
-        display: none; /* this CSS code hides the brand logo, so if you want to use your logo in the menu you can remove this code. */
-    }
-
-    /* Header: Normalize Menu */
-    .main-header.menu-type-standard-menu .standard-menu-container {
-        text-align: center;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        text-transform: uppercase;
-        padding: 15px 0;
-        text-shadow: none;
-    }
+	/* Header: Normalize Menu */
+	.main-header.menu-type-standard-menu .standard-menu-container {
+		text-align: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		text-transform: uppercase;
+		padding: 15px 0;
+		text-shadow: none;
+	}
 }
 /* ===========================================================
 Custom modification only for WEDDING Demo - END

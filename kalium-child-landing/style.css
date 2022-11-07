@@ -1,9 +1,9 @@
 /*
 Theme Name: Kalium - Landing Theme
-Theme URI: https://kaliumtheme.com/
+Theme URI: https://kaliumtheme.com
 Author: Laborator
-Author URI: https://laborator.co/
-Description: Start creating that amazing website that you have always wanted, only with Kalium — Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
+Author URI: https://laborator.co
+Description: Start creating that amazing website that you have always wanted, only with Kalium &mdash; Connect with Laborator on: <a href="https://themeforest.net/user/laborator">Envato</a> &bull; <a href="https://twitter.com/thelaborator">Twitter</a> &bull; <a href="https://www.facebook.com/laboratorcreative">Facebook</a> &bull; <a href="https://www.instagram.com/laboratorcreative/">Instagram</a>
 Version: 1.0
 License: GNU General Public License version 3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -15,262 +15,286 @@ Custom modification only for LANDING Demo - START
 =========================================================== */
 
 /* Menu underline animation height */
-.main-header.menu-type-standard-menu .standard-menu-container div.menu>ul>li>a:after, .main-header.menu-type-standard-menu .standard-menu-container ul.menu>li>a:after {
-    height: 2px;
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	div.menu
+	> ul
+	> li
+	> a:after,
+.main-header.menu-type-standard-menu
+	.standard-menu-container
+	ul.menu
+	> li
+	> a:after {
+	height: 2px;
 }
 
 .centered {
-    text-align: center;
+	text-align: center;
 }
 
 .feature-block {
-    text-align: center;
+	text-align: center;
 }
 
 /* Menu: Get the App Button */
 .get-the-app a {
-    background: #fff;
-    color: #858a99 !important;
-    border-radius: 50px;
-    padding: 4px 15px;
+	background: #fff;
+	color: #2c3142 !important;
+	border-radius: 50px;
+	padding: 4px 15px;
 }
 
 /* Menu: Get the App Button on Hover*/
 .get-the-app a:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    transition: box-shadow all 300ms;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	transition: box-shadow all 300ms;
+}
+
+/* Menu: Get the App Button when sticky */
+.site-header--sticky-active .get-the-app a {
+	background: #1c66d4;
+}
+
+/* Menu: Get the App Button when sticky */
+.site-header--sticky-active .get-the-app a span {
+	color: #fff;
 }
 
 /* Menu: Get the App Button Remove Underline */
 .get-the-app a:after {
-    display: none;
+	display: none;
 }
 
 /* Menu: Get the App Button Sticky Header */
 .main-header.is-sticky.sticky-fixed .get-the-app a {
-    background: #2078dc;
-    color: #fff !important;
+	background: #2078dc;
+	color: #fff !important;
 }
 
 /* Homepage: Overview Section */
 #overview {
-    padding: 50px 0;
+	padding: 50px 0;
 }
 
 /* Homepage: Features section */
 #features {
-    padding: 40px 0;
+	padding: 40px 0;
 }
 
 /* Homepage: Features section Title Spacing */
 #features .section-title {
-    padding: 20px 0px 40px 0px;
-}
-
-/* Homepage: Features Section Image */
-#features img.attachment-full {
-    width: 20%;
+	padding: 20px 0px 40px 0px;
 }
 
 /* Homepage: Unique Icons section */
 @media screen and (min-width: 991px) {
-    .unique-icons-section-holder {
-        padding-left: 100px !important;
-    }
+	.unique-icons-section-holder {
+		padding-left: 100px !important;
+	}
+
+	/* Homepage: Features section Title Spacing */
+	#features .section-title {
+		margin-bottom: 0px;
+	}
 }
 
 /* Homepage: Weather Icons */
 .weather-icons h3 {
-    line-height: 44px;
+	line-height: 44px;
 }
 
 /* Homepage: Weather Icons */
 .weather-icons h3 img {
-    width: 44px;
-    margin-right: 20px;
-    float: left;
+	width: 44px;
+	margin-right: 20px;
+	float: left;
 }
 
 /* Homepage: Weather Icons */
 #compatibility img.attachment-full {
-    width: 50%;
+	width: 50%;
 }
 
 /* Get a Copy section - Download buttons */
 #get-a-copy {
-    background-size: 142px;
+	background-size: 142px;
 }
 
 /* Get a Copy section - Download buttons */
 #get-a-copy .phones img {
-    width: 423px;
-    height: 485px;
+	width: 423px;
+	height: 485px;
 }
 
 /* Get a Copy section - Download buttons */
 #get-a-copy .app-store img {
-    width: auto;
-    height: 53px !important;
-    float: left;
-    margin-right: 20px
+	width: auto;
+	height: 53px !important;
+	float: left;
+	margin-right: 20px;
 }
 
 /* Get a Copy section - App Store Padding */
 .app-store {
-    padding-top: 185px;
+	padding-top: 185px;
 }
 
 /* Get a Copy section - App Store Remove underline */
 .app-store a:after {
-    display: none;
+	display: none;
 }
 
 /* Go to top margin modification */
 .go-to-top {
-    margin: 35px;
+	margin: 35px;
 }
 
 /* Mobile Active Menu */
-.mobile-menu-wrapper .mobile-menu-container div.menu ul>li.current-menu-item>a,
-.mobile-menu-wrapper .mobile-menu-container ul.menu li.current-menu-item>a {
-    color: #1675df;
+.mobile-menu-wrapper
+	.mobile-menu-container
+	div.menu
+	ul
+	> li.current-menu-item
+	> a,
+.mobile-menu-wrapper .mobile-menu-container ul.menu li.current-menu-item > a {
+	color: #1675df;
 }
 
 /* Blog: Single Blog area */
 .post-formatting .wp-caption .wp-caption-text {
-    background: #eee;
-    color: #000 !important;
+	background: #eee;
+	color: #000 !important;
 }
 
 /* Blog: Hide Underline on Titles */
 .blog-posts .post-item .post-details .post-title a:after {
-    display: none;
+	display: none;
 }
 
 /* Blog: Comments */
 .comment-form textarea {
-    background-image: linear-gradient(#DDD 1px, transparent 1px);
+	background-image: linear-gradient(#ddd 1px, transparent 1px);
 }
 
 /* Blog: Comments Button */
 .comment-form .button {
-    border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 .site-footer .footer-bottom a {
-    color: #fff;
-    font-size: 18px;
+	color: #fff;
+	font-size: 18px;
 }
 .site-footer .footer-bottom a:hover {
-    color: #fff;
+	color: #fff;
 }
 
-
 .site-footer .footer-bottom a:after {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 /* XS: Mobile devices */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
+	.title h2,
+	.unique-icons-section h2,
+	#compatibility .title h2 {
+		font-size: 30px;
+	}
 
-    .title h2, .unique-icons-section h2, #compatibility .title h2  {
-        font-size: 30px;
-    }
+	.title p,
+	.unique-icons-section p,
+	#compatibility .title p {
+		font-size: 22px;
+	}
 
-    .title p, .unique-icons-section p, #compatibility .title p {
-        font-size: 22px;
-    }
+	.unique-icons-section h3 {
+		font-size: 22px;
+	}
 
-    .unique-icons-section h3 {
-        font-size: 22px;
-    }
+	.app-store {
+		text-align: center;
+		padding-top: 50px;
+	}
 
-    .app-store {
-        text-align: center;
-        padding-top: 50px;
-    }
+	.phones {
+		display: none;
+	}
 
-    .phones {
-        display: none;
-    }
+	#overview {
+		padding: 10px 0;
+	}
 
-    #overview {
-        padding: 10px 0;
-    }
+	#overview img {
+		margin-top: 10px;
+	}
 
-    #overview img {
-        margin-top: 10px;
-    }
+	#overview .section-title {
+		margin-bottom: 30px;
+	}
 
-    #overview .section-title {
-        margin-bottom: 30px;
-    }
+	#features {
+		padding: 10px 0;
+	}
 
-    #features {
-        padding: 10px 0;
-    }
+	#features .section-title {
+		padding: 0;
+	}
 
-    #features .section-title {
-        padding: 0;
-    }
+	.feature-block h2 {
+		font-size: 20px;
+	}
 
-    .feature-block h2 {
-        font-size: 20px;
-    }
-
-    .feature-block p {
-        font-size: 18px;
-    }
+	.feature-block p {
+		font-size: 18px;
+	}
 }
 
 /* SM: Mobile and tablet devices */
 @media screen and (min-width: 768px) {
+	.devices {
+		margin-top: 150px;
+	}
 
-    .devices {
-        margin-top: 150px;
-    }
+	.feature-block h2 {
+		font-size: 20px;
+	}
 
-    .feature-block h2 {
-        font-size: 20px;
-    }
-
-    .feature-block p {
-        font-size: 18px;
-    }
+	.feature-block p {
+		font-size: 18px;
+	}
 }
 
 /* MD: Tablet and desktop devices */
 @media screen and (min-width: 992px) {
+	.devices {
+		margin-top: 70px;
+	}
 
-    .devices {
-        margin-top: 70px;
-    }
+	.feature-block h2 {
+		font-size: 30px;
+	}
 
-    .feature-block h2 {
-        font-size: 30px;
-    }
-
-    .feature-block p {
-        font-size: 20px;
-    }
+	.feature-block p {
+		font-size: 20px;
+	}
 }
 
 /* LG: Desktop devices */
 @media screen and (min-width: 1200px) {
+	.devices {
+		margin-top: 70px;
+	}
 
-    .devices {
-        margin-top: 70px;
-    }
+	.feature-block h2 {
+		font-size: 30px;
+	}
 
-    .feature-block h2 {
-        font-size: 30px;
-    }
-
-    .feature-block p {
-        font-size: 20px;
-    }
+	.feature-block p {
+		font-size: 20px;
+	}
 }
 /* ===========================================================
 Custom modification only for LANDING Demo - END
@@ -280,5 +304,5 @@ Custom modification only for LANDING Demo - END
 User CSS modifications
 =========================================================== */
 .example {
-    color: red !important;
+	color: red !important;
 }
